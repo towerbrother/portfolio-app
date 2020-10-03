@@ -1,4 +1,12 @@
 .footer {
+  bottom: 0;
+  left: 0;
+  margin: $l-size 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer__text {
   color: $tower-blue;
   font-size: $m-size;
   text-align: center;

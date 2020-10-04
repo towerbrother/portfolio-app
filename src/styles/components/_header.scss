@@ -38,6 +38,14 @@
   .role {
     color: $tower-red;
   }
+  &:hover {
+    .name {
+      color: $tower-red;
+    }
+    .role {
+      color: $tower-blue;
+    }
+  }
 }
 
 .header__routes {

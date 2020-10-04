@@ -1,6 +1,48 @@
 .home {
-  color: $tower-blue;
-  font-size: $xl-size;
-  font-weight: bold;
-  text-align: center;
+  font-size: $l-size;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 $s-size;
+  text-align: left;
+}
+
+.home__greetings {
+  font-size: $xxxl-size;
+}
+
+.home__statement {
+  margin-bottom: 0;
+  .home__statement__navlink {
+    color: $tower-blue;
+    text-decoration: none;
+    &:hover {
+      color: $tower-red;
+    }
+  }
+}
+
+.home__description {
+  margin-top: $s-size;
+}
+
+.home__buttons {
+  button {
+    background-color: $off-black;
+    border-radius: $s-size;
+    border: 0.4rem solid $tower-blue;
+    color: $tower-blue;
+    margin: $l-size $xl-size $l-size 0;
+    padding: $m-size;
+    .home__buttons__navlink {
+      color: $tower-blue;
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: $tower-blue;
+      color: $off-black;
+      .home__buttons__navlink {
+        color: $off-black;
+      }
+    }
+  }
 }

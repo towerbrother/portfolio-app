@@ -8,7 +8,8 @@
 }
 
 .content_wrapper {
+  color: $tower-blue;
   flex-grow: 1;
+  margin: $l-size;
   overflow: auto;
-  min-height: 2rem;
 }

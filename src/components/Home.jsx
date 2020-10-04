@@ -1,22 +1,28 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Home = () => (
   <div className="content_wrapper">
     <div className="home">
-      <div className="home__title">
-        <h1 className="home__title__greetings">Hello friend!</h1>
-        <h1 className="home__title__name">I'm Giorgio (aka Tower)</h1>
-      </div>
-      <div className="home__subtitle">
-        <h2>I build web applications that people need.</h2>
-      </div>
-      <div className="home__description">
-        <p>Front End Developer - currently looking for a full-time role.</p>
-      </div>
+      <h1 className="home__greetings">Hi, I'm Tower!</h1>
+      <h2 className="home__statement">
+        I build{" "}
+        <NavLink className="home__statement__navlink" to="/projects">
+          web applications
+        </NavLink>{" "}
+        that people need.
+      </h2>
+      <p className="home__description">
+        Front End Developer - currently looking for a full-time role.
+      </p>
       <div className="home__buttons">
-        <button>GitHub</button>
-        <button>LinkedIn</button>
-        <button>Contact Me</button>
+        <button target="_blank">GitHub</button>
+        <button target="_blank">LinkedIn</button>
+        <button>
+          <NavLink className="home__buttons__navlink" to="/projects">
+            Contact Me
+          </NavLink>
+        </button>
       </div>
     </div>
   </div>

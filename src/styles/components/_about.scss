@@ -1,6 +1,18 @@
 .about {
+  flex: 1;
+  overflow: auto;
+}
+
+.about__text {
   color: $tower-blue;
-  font-size: $xl-size;
-  font-weight: bold;
-  text-align: center;
+  font-size: $l-size;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 $s-size;
+  text-align: left;
+}
+
+.is_red {
+  color: $tower-red;
+  opacity: 0.8;
 }

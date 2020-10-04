@@ -9,7 +9,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 const AppRouter = () => (
-  <>
+  <div className="container">
     <BrowserRouter>
       <Header />
       <Switch>
@@ -21,7 +21,7 @@ const AppRouter = () => (
       </Switch>
     </BrowserRouter>
     <Footer />
-  </>
+  </div>
 );
 
 export default AppRouter;

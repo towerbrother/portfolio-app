@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../images/tower-logo.png";
 
 const Header = () => (
-  <div className="container">
+  <div className="header_wrapper">
     <div className="header">
       <NavLink className="header__home" to="/">
         <img className="header__home__logo" src={logo} alt="logo" />

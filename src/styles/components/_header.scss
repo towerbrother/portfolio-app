@@ -1,9 +1,13 @@
+.header_wrapper {
+  flex-shrink: 0;
+  margin: $l-size;
+}
+
 .header {
   align-items: center;
   display: flex;
   flex-direction: row;
   font-size: $l-size;
-  margin: $l-size $m-size;
   justify-content: space-between;
 }
 
@@ -12,14 +16,13 @@
   color: $tower-blue;
   display: flex;
   flex-direction: row;
-  font-size: $m-size;
   justify-content: center;
   text-decoration: none;
 }
 
 .header__home__logo {
-  height: $xxl-size;
-  width: $xxl-size;
+  height: 6.3rem;
+  width: 6rem;
 }
 
 .header__home__name {
@@ -27,10 +30,10 @@
   display: flex;
   flex-direction: column;
   font-size: $m-size;
-  margin: 0 $s-size;
+  margin: 0 0 0 $xs-size;
   justify-content: center;
   * {
-    margin: 0 0 $xs-size 0;
+    margin: 0;
   }
   .role {
     color: $tower-red;
@@ -41,7 +44,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: $l-size;
+  font-size: $xxl-size;
   justify-content: space-evenly;
 }
 
@@ -51,6 +54,6 @@
   margin: $xs-size $l-size;
   text-decoration: none;
   &:hover {
-    border-bottom: $xs-size solid $tower-red;
+    color: $tower-red;
   }
 }

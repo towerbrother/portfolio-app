@@ -1,7 +1,7 @@
 import React from "react";
 
 const Projects = () => (
-  <div className="container">
+  <div className="content_wrapper">
     <div className="projects">Projects</div>
   </div>
 );

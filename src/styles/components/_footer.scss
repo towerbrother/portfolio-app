@@ -1,9 +1,9 @@
+.footer_wrapper {
+  flex-shrink: 0;
+  margin: $m-size;
+}
+
 .footer {
-  bottom: 0;
-  left: 0;
-  margin: $l-size 0;
-  position: fixed;
-  width: 100%;
 }
 
 .footer__text {

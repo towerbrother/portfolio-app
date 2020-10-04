@@ -9,8 +9,7 @@ const About = () => (
       </p>
       <p>
         I'm a proficient <label className="is_red">JavaScript / React</label>{" "}
-        developer with a passion and curiosity for solving problems using
-        technology.
+        developer with a passion for solving problems using technology.
       </p>
       <p>
         For the past 12 months I've been using early mornings and late evenings
@@ -18,10 +17,9 @@ const About = () => (
         love learning and I'm always hungry for new challenges.
       </p>
       <p>
-        I’m a very organized, committed, responsible and resilient individual. I
-        bring to the table broad commercial and management experience, well
-        developed communication and teamworking skills as a key for personal and
-        professional success.
+        I’m a very organized, responsible and resilient individual. I bring
+        broad commercial and management experience, well developed communication
+        and teamworking skills as a key for personal and professional success.
       </p>
       <p>
         <label className="is_red">

@@ -16,12 +16,35 @@ const Home = () => (
         Front End Developer - currently looking for a full-time role.
       </p>
       <div className="home__buttons">
-        <button target="_blank">GitHub</button>
-        <button target="_blank">LinkedIn</button>
         <button>
-          <NavLink className="home__buttons__navlink" to="/contact">
+          <a
+            className="home__buttons__link"
+            href="https://github.com/towerbrother"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </button>
+        <button>
+          <a
+            className="home__buttons__link"
+            href="https://www.linkedin.com/in/giorgiotorre/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </button>
+        <button>
+          <a
+            className="home__buttons__link"
+            href="mailto:giorgio.torre8@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contact Me
-          </NavLink>
+          </a>
         </button>
       </div>
     </div>

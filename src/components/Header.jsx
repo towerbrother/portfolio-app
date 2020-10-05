@@ -22,9 +22,14 @@ const Header = () => (
         <NavLink className="header__routes__element" to="/projects">
           Projects
         </NavLink>
-        <NavLink className="header__routes__element" to="/contact">
+        <a
+          className="header__routes__element"
+          href="mailto:giorgio.torre8@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Contact
-        </NavLink>
+        </a>
       </div>
     </div>
   </div>

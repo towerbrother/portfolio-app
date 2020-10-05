@@ -19,7 +19,7 @@ const Home = () => (
         <button target="_blank">GitHub</button>
         <button target="_blank">LinkedIn</button>
         <button>
-          <NavLink className="home__buttons__navlink" to="/projects">
+          <NavLink className="home__buttons__navlink" to="/contact">
             Contact Me
           </NavLink>
         </button>

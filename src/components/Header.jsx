@@ -16,8 +16,8 @@ const Header = () => (
         <NavLink className="header__routes__element" to="/about">
           About
         </NavLink>
-        <NavLink className="header__routes__element" to="/skills">
-          Skills
+        <NavLink className="header__routes__element" to="/education">
+          Education
         </NavLink>
         <NavLink className="header__routes__element" to="/projects">
           Projects

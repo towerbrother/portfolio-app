@@ -1,9 +1,17 @@
 .about__text {
   font-size: $l-size;
   margin: 0 auto;
-  max-width: 90rem;
+  max-width: 100rem;
   padding: 0 $s-size;
   text-align: left;
+}
+
+.about__text__navlink {
+  color: $tower-red;
+  text-decoration: none;
+  &:hover {
+    color: $tower-blue;
+  }
 }
 
 .is_red {

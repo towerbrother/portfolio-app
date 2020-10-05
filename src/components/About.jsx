@@ -1,20 +1,21 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const About = () => (
   <div className="content_wrapper">
     <div className="about__text">
+      <p>Hi, I'm Giorgio (aka Tower)!</p>
       <p>
-        Hi, I'm Giorgio (aka Tower), a{" "}
-        <label className="is_red">self-taught JavaScript Developer!</label>
-      </p>
-      <p>
-        I'm a proficient <label className="is_red">JavaScript / React</label>{" "}
-        developer with a passion for solving problems using technology.
+        I'm a{" "}
+        <label className="is_red">
+          self-taught JavaScript / React developer
+        </label>{" "}
+        with a passion for solving problems using technology.
       </p>
       <p>
         For the past 12 months I've been using early mornings and late evenings
-        to learn and refine my skills. I'm nowhere near a final product but I
-        love learning and I'm always hungry for new challenges.
+        to learn and refine my skills. I love learning and I'm always hungry for
+        new challenges.
       </p>
       <p>
         I’m a very organized, responsible and resilient individual. I bring
@@ -28,7 +29,12 @@ const About = () => (
         I want to design, build, and develop solutions to improve people's
         lives.
       </p>
-      <p>I'm currently looking for a full-time Front End Developer role.</p>
+      <p>
+        I'm currently looking for a full-time Front End Developer role.{" "}
+        <NavLink className="about__text__navlink" to="/contact">
+          Let's chat!
+        </NavLink>
+      </p>
     </div>
   </div>
 );

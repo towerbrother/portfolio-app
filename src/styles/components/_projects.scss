@@ -1,5 +1,21 @@
-.projects {
-  font-size: $xl-size;
-  font-weight: bold;
-  text-align: center;
+.projects-container {
+  display: flex;
+  justify-content: center;
+  margin: $xl-size $xxxl-size;
 }
+
+.project {
+  // background-size: auto 100%;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // border-radius: 50px;
+  // cursor: pointer;
+  // flex: 0.5;
+  margin: $m-size;
+  // height: 80vh;
+  // transition: flex 0.7s cubic-bezier(0.05, 0.6, 0.4, 0.9);
+}
+
+// .project.active {
+//   flex: 6;
+// }

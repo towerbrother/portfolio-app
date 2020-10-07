@@ -3,14 +3,14 @@ html {
   --primaryBackgroundColor: #{$off-white};
   --secondaryBackgroundColor: #{darken($off-white, 10%)};
   --primaryTextColor: #{$tower-dark-blue};
-  --secondaryTextColor: #{$tower-orange};
+  --secondaryTextColor: #{$tower-red};
 }
 
 html.dark {
   --primaryBackgroundColor: #{$off-black};
   --secondaryBackgroundColor: #{darken($off-black, 10%)};
   --primaryTextColor: #{$tower-light-blue};
-  --secondaryTextColor: #{$tower-orange};
+  --secondaryTextColor: #{$tower-red};
 }
 
 body {

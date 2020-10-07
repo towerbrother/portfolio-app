@@ -8,7 +8,7 @@
 }
 
 .content_wrapper {
-  color: $tower-blue;
+  color: var(--primaryTextColor);
   flex-grow: 1;
   margin: $s-size $l-size 0 $l-size;
   overflow: auto;

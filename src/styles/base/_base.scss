@@ -1,9 +1,20 @@
 html {
   font-size: 62.5%;
+  --primaryBackgroundColor: #{$off-white};
+  --secondaryBackgroundColor: #{darken($off-white, 10%)};
+  --primaryTextColor: #{$tower-dark-blue};
+  --secondaryTextColor: #{$tower-orange};
+}
+
+html.dark {
+  --primaryBackgroundColor: #{$off-black};
+  --secondaryBackgroundColor: #{darken($off-black, 10%)};
+  --primaryTextColor: #{$tower-light-blue};
+  --secondaryTextColor: #{$tower-orange};
 }
 
 body {
-  background: darken($off-black, 1%);
+  background: var(--primaryBackgroundColor);
   font-family: Verdana, Arial, sans-serif;
   font-size: $m-size;
   margin: 0;
@@ -12,8 +23,4 @@ body {
 
 button {
   cursor: pointer;
-}
-
-button:disabled {
-  cursor: default;
 }

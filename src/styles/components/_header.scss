@@ -7,13 +7,12 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: $l-size;
   justify-content: space-between;
 }
 
 .header__home {
   align-items: center;
-  color: $tower-blue;
+  color: var(--primaryTextColor);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -36,14 +35,14 @@
     margin: 0;
   }
   .role {
-    color: $tower-red;
+    color: var(--secondaryTextColor);
   }
   &:hover {
     .name {
-      color: $tower-red;
+      color: var(--secondaryTextColor);
     }
     .role {
-      color: $tower-blue;
+      color: var(--primaryTextColor);
     }
   }
 }
@@ -52,16 +51,16 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: $xxl-size;
+  font-size: $xl-size;
   justify-content: space-evenly;
 }
 
 .header__routes__element {
   background-color: transparent;
-  color: $tower-blue;
+  color: var(--primaryTextColor);
   margin: $xs-size $l-size;
   text-decoration: none;
   &:hover {
-    color: $tower-red;
+    color: var(--secondaryTextColor);
   }
 }

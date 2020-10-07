@@ -7,13 +7,13 @@
 }
 
 .about__text__navlink {
-  color: $tower-red;
+  color: var(--secondaryTextColor);
   text-decoration: none;
   &:hover {
-    color: $tower-blue;
+    color: var(--primaryTextColor);
   }
 }
 
 .is_red {
-  color: $tower-red;
+  color: var(--secondaryTextColor);
 }

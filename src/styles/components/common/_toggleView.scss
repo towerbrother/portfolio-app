@@ -11,28 +11,27 @@
 }
 
 .toggle-view__label {
-  background-color: darken($off-black, 10%);
-  margin: $m-size $xl-size $m-size $m-size;
+  align-items: center;
+  background-color: var(--secondaryBackgroundColor);
   border-radius: 50px;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2px;
-  position: relative;
   height: $l-size;
-  width: 48px;
+  margin: $m-size $xl-size $m-size $m-size;
+  justify-content: space-between;
+  padding: 3px;
+  position: relative;
   transform: scale(1.5);
+  width: 48px;
 }
 
 .toggle-view__ball {
-  background-color: $tower-blue;
+  background-color: var(--primaryTextColor);
   border-radius: 50%;
-  position: absolute;
   height: $l-size;
-  width: $l-size;
-  transform: translateX(0px);
+  position: absolute;
   transition: transform 0.2s linear;
+  width: $l-size;
 }
 
 .toggle-view__checkbox:checked + .toggle-view__label .toggle-view__ball {
@@ -40,7 +39,7 @@
 }
 
 .toggle-view__icon {
-  color: $toggle-orange;
+  color: $tower-orange;
   height: $m-size;
   width: $m-size;
   padding: 1px;

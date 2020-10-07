@@ -1,5 +1,4 @@
 .footer_wrapper {
-  // align-items: center;
   display: flex;
   flex-direction: row;
   flex-shrink: 0;
@@ -9,7 +8,7 @@
 }
 
 .footer__text {
-  color: $tower-blue;
+  color: var(--primaryTextColor);
   font-size: $m-size;
   margin: $m-size;
   text-align: center;

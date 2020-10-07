@@ -13,10 +13,10 @@
 .home__statement {
   margin-bottom: 0;
   .home__statement__navlink {
-    color: $tower-blue;
+    color: var(--primaryTextColor);
     text-decoration: none;
     &:hover {
-      color: $tower-red;
+      color: var(--secondaryTextColor);
     }
   }
 }
@@ -27,21 +27,21 @@
 
 .home__buttons {
   button {
-    background-color: $off-black;
+    background-color: var(--backgroundColor);
     border-radius: $s-size;
-    border: 0.4rem solid $tower-blue;
-    color: $tower-blue;
+    border: 0.4rem solid var(--primaryTextColor);
+    color: var(--primaryTextColor);
     margin: $l-size $xl-size $l-size 0;
     padding: $m-size;
     .home__buttons__link {
-      color: $tower-blue;
+      color: var(--primaryTextColor);
       text-decoration: none;
     }
     &:hover {
-      background-color: $tower-blue;
-      color: $off-black;
+      background-color: var(--primaryTextColor);
+      color: var(--backgroundColor);
       .home__buttons__link {
-        color: $off-black;
+        color: var(--backgroundColor);
       }
     }
   }

@@ -27,7 +27,7 @@
 
 .home__buttons {
   button {
-    background-color: var(--backgroundColor);
+    background-color: var(--primaryBackgroundColor);
     border-radius: $s-size;
     border: 0.4rem solid var(--primaryTextColor);
     color: var(--primaryTextColor);
@@ -39,9 +39,9 @@
     }
     &:hover {
       background-color: var(--primaryTextColor);
-      color: var(--backgroundColor);
+      color: var(--primaryBackgroundColor);
       .home__buttons__link {
-        color: var(--backgroundColor);
+        color: var(--primaryBackgroundColor);
       }
     }
   }

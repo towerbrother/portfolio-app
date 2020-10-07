@@ -19,9 +19,6 @@ const Projects = () => {
         <div className="project" id="calculator">
           calculator
         </div>
-        <div className="project" id="clock">
-          clock
-        </div>
       </div>
     </div>
   );

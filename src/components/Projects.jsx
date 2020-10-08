@@ -8,21 +8,24 @@ import calculatorAppImg from "../images/calculator-app.PNG";
 
 const Projects = () => {
   const weatherApp = {
-    title: "React Weather App",
+    title: "Weather App",
+    stack: "React",
     description: "Check the weather before getting out of the house.",
     gitHubUrl: "https://github.com/towerbrother/weather-app",
     demoUrl: "https://tower-weather-app.herokuapp.com/",
   };
 
   const indecisionApp = {
-    title: "React Indecision App",
+    title: "Indecision App",
+    stack: "React",
     description: "Blame fate when faced with a hard decision!?",
     gitHubUrl: "https://github.com/towerbrother/indecision-app",
     demoUrl: "https://tower-weather-app.herokuapp.com/", //wrong
   };
 
   const budgetApp = {
-    title: "Firestore + React Budget App",
+    title: "Budget App",
+    stack: "Firestore + React",
     description: "Keep track of your finances.",
     gitHubUrl: "https://github.com/towerbrother/budget-app",
     demoUrl: "https://tower-budget-app.herokuapp.com/",
@@ -36,7 +39,8 @@ const Projects = () => {
   // };
 
   const calculatorApp = {
-    title: "Javascript Calculator App",
+    title: "Calculator App",
+    stack: "Javascript",
     description: "Simple JS calculator.",
     gitHubUrl: "https://github.com/towerbrother/JS-calculator",
     demoUrl: "https://tower-weather-app.herokuapp.com/", //wrong
@@ -47,6 +51,7 @@ const Projects = () => {
       <div className="projects-container">
         <ProjectCard
           title={weatherApp.title}
+          stack={weatherApp.stack}
           description={weatherApp.description}
           imgSrc={weatherAppImg}
           gitHubUrl={weatherApp.gitHubUrl}
@@ -54,6 +59,7 @@ const Projects = () => {
         />
         <ProjectCard
           title={budgetApp.title}
+          stack={budgetApp.stack}
           description={budgetApp.description}
           imgSrc={budgetAppImg}
           gitHubUrl={budgetApp.gitHubUrl}
@@ -61,6 +67,7 @@ const Projects = () => {
         />
         <ProjectCard
           title={indecisionApp.title}
+          stack={indecisionApp.stack}
           description={indecisionApp.description}
           imgSrc={indecisionAppImg}
           gitHubUrl={indecisionApp.gitHubUrl}
@@ -68,6 +75,7 @@ const Projects = () => {
         />
         {/* <ProjectCard
           title={videoApp.title}
+          stack={videoApp.stack}
           description={videoApp.description}
           imgSrc={videoAppImg}
           gitHubUrl={videoApp.gitHubUrl}
@@ -75,6 +83,7 @@ const Projects = () => {
         />*/}
         <ProjectCard
           title={calculatorApp.title}
+          stack={calculatorApp.stack}
           description={calculatorApp.description}
           imgSrc={calculatorAppImg}
           gitHubUrl={calculatorApp.gitHubUrl}

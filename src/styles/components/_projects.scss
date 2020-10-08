@@ -1,21 +1,67 @@
 .projects-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: $xl-size $xxxl-size;
 }
 
-.project {
-  // background-size: auto 100%;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // border-radius: 50px;
-  // cursor: pointer;
-  // flex: 0.5;
-  margin: $m-size;
-  // height: 80vh;
-  // transition: flex 0.7s cubic-bezier(0.05, 0.6, 0.4, 0.9);
+// https://www.w3schools.com/howto/howto_css_image_overlay.asp
+
+.project_card {
+  margin: $l-size;
+  max-width: $image-size;
+  position: relative;
 }
 
-// .project.active {
-//   flex: 6;
-// }
+.project_card__image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  width: $image-size;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.project_card__overlay {
+  left: 50%;
+  opacity: 0;
+  padding: $m-size;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+}
+
+.project_card:hover .project_card__image {
+  opacity: 0.1;
+}
+
+.project_card:hover .project_card__overlay {
+  opacity: 1;
+}
+
+.project_card__overlay__info {
+  color: var(--primaryTextColor);
+  padding: $m-size $s-size;
+}
+
+.project_card__overlay__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project_card__overlay__links__link {
+  background-color: var(--primaryBackgroundColor);
+  border-radius: $s-size;
+  border: 0.4rem solid var(--primaryTextColor);
+  color: var(--primaryTextColor);
+  font-weight: bold;
+  margin: $s-size $m-size;
+  padding: $s-size;
+  text-decoration: none;
+  &:hover {
+    background-color: var(--primaryTextColor);
+    color: var(--primaryBackgroundColor);
+  }
+}

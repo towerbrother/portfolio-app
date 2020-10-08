@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./common/Card";
+import EducationCard from "./common/EducationCard";
 
 const Education = () => {
   const online = {
@@ -30,22 +30,22 @@ const Education = () => {
     <div className="content_wrapper">
       <h1 className="title">Education</h1>
       <div className="card-wrapper">
-        <Card
+        <EducationCard
           title={online.title}
           date={online.date}
           description={online.description}
         />
-        <Card
+        <EducationCard
           title={meetup.title}
           date={meetup.date}
           description={meetup.description}
         />
-        <Card
+        <EducationCard
           title={pisa.title}
           date={pisa.date}
           description={pisa.description}
         />
-        <Card
+        <EducationCard
           title={cranfield.title}
           date={cranfield.date}
           description={cranfield.description}

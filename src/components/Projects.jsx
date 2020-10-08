@@ -1,24 +1,85 @@
 import React from "react";
+import ProjectCard from "./common/ProjectCard";
+import weatherAppImg from "../images/weather-app.PNG";
+import budgetAppImg from "../images/budget-app.PNG";
+import indecisionAppImg from "../images/indecision-app.PNG";
+import calculatorAppImg from "../images/calculator-app.PNG";
+// import videoAppImg from "../images/video-app.PNG";
 
 const Projects = () => {
+  const weatherApp = {
+    title: "React Weather App",
+    description: "Check the weather before getting out of the house.",
+    gitHubUrl: "https://github.com/towerbrother/weather-app",
+    demoUrl: "https://tower-weather-app.herokuapp.com/",
+  };
+
+  const indecisionApp = {
+    title: "React Indecision App",
+    description: "Blame fate when faced with a hard decision!?",
+    gitHubUrl: "https://github.com/towerbrother/indecision-app",
+    demoUrl: "https://tower-weather-app.herokuapp.com/", //wrong
+  };
+
+  const budgetApp = {
+    title: "Firestore + React Budget App",
+    description: "Keep track of your finances.",
+    gitHubUrl: "https://github.com/towerbrother/budget-app",
+    demoUrl: "https://tower-budget-app.herokuapp.com/",
+  };
+
+  // const videoApp = {
+  //   title: "Firestore + React Video App",
+  //   description: "",
+  //   gitHubUrl: "",
+  //   demoUrl: "",
+  // };
+
+  const calculatorApp = {
+    title: "Javascript Calculator App",
+    description: "Simple JS calculator.",
+    gitHubUrl: "https://github.com/towerbrother/JS-calculator",
+    demoUrl: "https://tower-weather-app.herokuapp.com/", //wrong
+  };
+
   return (
     <div className="content_wrapper">
       <div className="projects-container">
-        <div className="project active" id="weather-app">
-          weather-app
-        </div>
-        <div className="project" id="indecision-app">
-          indecision-app
-        </div>
-        <div className="project" id="budget-app">
-          budget-app
-        </div>
-        <div className="project" id="video-app">
-          video-app
-        </div>
-        <div className="project" id="calculator">
-          calculator
-        </div>
+        <ProjectCard
+          title={weatherApp.title}
+          description={weatherApp.description}
+          imgSrc={weatherAppImg}
+          gitHubUrl={weatherApp.gitHubUrl}
+          demoUrl={weatherApp.demoUrl}
+        />
+        <ProjectCard
+          title={budgetApp.title}
+          description={budgetApp.description}
+          imgSrc={budgetAppImg}
+          gitHubUrl={budgetApp.gitHubUrl}
+          demoUrl={budgetApp.demoUrl}
+        />
+        <ProjectCard
+          title={indecisionApp.title}
+          description={indecisionApp.description}
+          imgSrc={indecisionAppImg}
+          gitHubUrl={indecisionApp.gitHubUrl}
+          demoUrl={indecisionApp.demoUrl}
+        />
+        {/* <ProjectCard
+          title={videoApp.title}
+          description={videoApp.description}
+          imgSrc={videoAppImg}
+          gitHubUrl={videoApp.gitHubUrl}
+          demoUrl={videoApp.demoUrl}
+        />*/}
+        <ProjectCard
+          title={calculatorApp.title}
+          description={calculatorApp.description}
+          imgSrc={calculatorAppImg}
+          gitHubUrl={calculatorApp.gitHubUrl}
+          demoUrl={calculatorApp.demoUrl}
+        />
       </div>
     </div>
   );

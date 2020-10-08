@@ -8,6 +8,7 @@
 // https://www.w3schools.com/howto/howto_css_image_overlay.asp
 
 .project_card {
+  border-radius: $xl-size;
   margin: $l-size;
   max-width: $image-size;
   max-height: $image-max-size;

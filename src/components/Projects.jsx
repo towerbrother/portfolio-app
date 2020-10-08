@@ -3,8 +3,7 @@ import ProjectCard from "./common/ProjectCard";
 import weatherAppImg from "../images/weather-app.PNG";
 import budgetAppImg from "../images/budget-app.PNG";
 import indecisionAppImg from "../images/indecision-app.PNG";
-import calculatorAppImg from "../images/calculator-app.PNG";
-// import videoAppImg from "../images/video-app.PNG";
+import videoAppImg from "../images/video-app.PNG";
 
 const Projects = () => {
   const weatherApp = {
@@ -20,30 +19,23 @@ const Projects = () => {
     stack: "React",
     description: "Blame fate when faced with a hard decision!?",
     gitHubUrl: "https://github.com/towerbrother/indecision-app",
-    demoUrl: "https://tower-weather-app.herokuapp.com/", //wrong
+    demoUrl: "https://tower-indecision-app.herokuapp.com/",
   };
 
   const budgetApp = {
     title: "Budget App",
-    stack: "Firestore + React",
+    stack: "Firestore/React",
     description: "Keep track of your finances.",
     gitHubUrl: "https://github.com/towerbrother/budget-app",
     demoUrl: "https://tower-budget-app.herokuapp.com/",
   };
 
-  // const videoApp = {
-  //   title: "Firestore + React Video App",
-  //   description: "",
-  //   gitHubUrl: "",
-  //   demoUrl: "",
-  // };
-
-  const calculatorApp = {
-    title: "Calculator App",
-    stack: "Javascript",
-    description: "Simple JS calculator.",
-    gitHubUrl: "https://github.com/towerbrother/JS-calculator",
-    demoUrl: "https://tower-weather-app.herokuapp.com/", //wrong
+  const videoApp = {
+    title: "Video App",
+    stack: "Firestore/React",
+    description: "Coming soon... :)",
+    gitHubUrl: "",
+    demoUrl: "",
   };
 
   return (
@@ -73,21 +65,13 @@ const Projects = () => {
           gitHubUrl={indecisionApp.gitHubUrl}
           demoUrl={indecisionApp.demoUrl}
         />
-        {/* <ProjectCard
+        <ProjectCard
           title={videoApp.title}
           stack={videoApp.stack}
           description={videoApp.description}
           imgSrc={videoAppImg}
           gitHubUrl={videoApp.gitHubUrl}
           demoUrl={videoApp.demoUrl}
-        />*/}
-        <ProjectCard
-          title={calculatorApp.title}
-          stack={calculatorApp.stack}
-          description={calculatorApp.description}
-          imgSrc={calculatorAppImg}
-          gitHubUrl={calculatorApp.gitHubUrl}
-          demoUrl={calculatorApp.demoUrl}
         />
       </div>
     </div>

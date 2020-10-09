@@ -1,6 +1,6 @@
 .header_wrapper {
   flex-shrink: 0;
-  margin: $l-size;
+  margin: $s-size;
 }
 
 .header {
@@ -11,56 +11,78 @@
 }
 
 .header__home {
-  align-items: center;
-  color: var(--primaryTextColor);
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  font-size: $s-size;
   text-decoration: none;
 }
 
-.header__home__logo {
-  height: 6.3rem;
-  width: 6rem;
+.name {
+  color: var(--primaryTextColor);
+  padding: 0 $xs-size;
+  margin: 0;
 }
 
-.header__home__name {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  font-size: $m-size;
-  margin: 0 0 0 $xs-size;
-  justify-content: center;
-  * {
-    margin: 0;
+.surname {
+  color: var(--secondaryTextColor);
+  margin: 0;
+}
+
+// This will become a vertical mobile navigation bar
+.header__routes {
+  display: none;
+}
+
+.header__icon {
+  color: var(--primaryTextColor);
+  font-size: $xl-size;
+  margin: $xs-size;
+  padding: 0 $xs-size;
+}
+
+// =====================================================
+
+// Mid-size
+@media (min-width: $mobile-breakpoint) {
+  .header__home {
+    font-size: $l-size;
   }
-  .role {
-    color: var(--secondaryTextColor);
+
+  .header__icon {
+    font-size: $xxxl-size;
   }
-  &:hover {
-    .name {
+}
+
+// =====================================================
+
+// Full size
+@media (min-width: $desktop-breakpoint) {
+  .header_wrapper {
+    margin: $l-size;
+  }
+
+  .header__home {
+    font-size: $l-size;
+  }
+
+  .header__routes {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: $xl-size;
+    justify-content: space-evenly;
+  }
+
+  .header__routes__element {
+    background-color: transparent;
+    color: var(--primaryTextColor);
+    margin: $xs-size $l-size;
+    text-decoration: none;
+    &:hover {
       color: var(--secondaryTextColor);
     }
-    .role {
-      color: var(--primaryTextColor);
-    }
   }
-}
 
-.header__routes {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  font-size: $xl-size;
-  justify-content: space-evenly;
-}
-
-.header__routes__element {
-  background-color: transparent;
-  color: var(--primaryTextColor);
-  margin: $xs-size $l-size;
-  text-decoration: none;
-  &:hover {
-    color: var(--secondaryTextColor);
+  .header__icon {
+    display: none;
   }
 }

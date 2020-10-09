@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => (
   <div className="header_wrapper">
     <div className="header">
       <NavLink className="header__home" to="/">
-        <div className="header__home__name">
-          <h1 className="name">Giorgio Torre</h1>
-          <h4 className="role">Front End Developer</h4>
-        </div>
+        <h1 className="name">Giorgio</h1>
+        <h1 className="surname">Torre</h1>
       </NavLink>
       <div className="header__routes">
         <NavLink className="header__routes__element" to="/about">
@@ -29,6 +29,7 @@ const Header = () => (
           Contact
         </a>
       </div>
+      <FontAwesomeIcon icon={faBars} className="header__icon" />
     </div>
   </div>
 );

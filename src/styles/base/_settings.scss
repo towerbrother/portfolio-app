@@ -9,11 +9,14 @@ $tower-red: #ff1616;
 // Size
 $xs-size: 0.6rem;
 $s-size: 1.2rem;
-$m-size: 1.6rem;
+$m-size: 1.6rem; // 16px
 $l-size: 2.4rem;
 $xl-size: 3.2rem;
 $xxl-size: 4rem;
 $xxxl-size: 6.8rem;
 $image-size: 50rem;
 $image-max-size: 35rem;
-$desktop-breakpoint: 45rem;
+
+// Breakpoints
+$mobile-breakpoint: 45rem;
+$desktop-breakpoint: 85rem;

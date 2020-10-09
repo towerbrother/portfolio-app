@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => (
   <div className="content_wrapper">
     <div className="home">
-      <h1 className="home__greetings">Hi, I'm Tower!</h1>
+      <h1 className="home__greetings">Hi, I'm Giorgio!</h1>
       <h2 className="home__statement">
         I build{" "}
         <NavLink className="home__statement__navlink" to="/projects">

@@ -1,15 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import logo from "../images/tower-logo.png";
+// import logoDark from "../images/tower-logo-dark.png";
+// import logoLight from "../images/tower-logo-light.png";
 
 const Header = () => (
   <div className="header_wrapper">
     <div className="header">
       <NavLink className="header__home" to="/">
-        {/* <img className="header__home__logo" src={logo} alt="logo" /> */}
+        {/* <img className="header__home__logo" src={logoDark} alt="logo dark theme"/>
+         <img className="header__home__logo" src={logoLight} alt="logo dark theme"/> */}
         <div className="header__home__name">
-          <h1 className="name">Tower</h1>
-          <h5 className="role">Front End Developer</h5>
+          <h1 className="name">Giorgio Torre</h1>
+          <h4 className="role">Front End Developer</h4>
         </div>
       </NavLink>
       <div className="header__routes">

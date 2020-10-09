@@ -11,6 +11,7 @@ const ToggleView = () => {
     isDark
       ? document.documentElement.classList.add(darkTheme)
       : document.documentElement.classList.remove(darkTheme);
+    console.log(document.getElementsByTagName("html")[0].getAttribute("class"));
   }, [isDark]);
 
   return (

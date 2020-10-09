@@ -46,6 +46,11 @@ const Home = () => (
             Contact Me
           </a>
         </button>
+        <button>
+          <NavLink className="home__buttons__link" to="/projects">
+            See what I can do!
+          </NavLink>
+        </button>
       </div>
     </div>
   </div>

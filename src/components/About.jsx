@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const About = () => (
   <div className="content_wrapper">
@@ -31,9 +30,14 @@ const About = () => (
       </p>
       <p>
         I'm currently looking for a full-time Front End Developer role.{" "}
-        <NavLink className="about__text__navlink" to="/contact">
+        <a
+          className="about__text__navlink"
+          href="mailto:giorgio.torre8@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Let's chat!
-        </NavLink>
+        </a>
       </p>
     </div>
   </div>

@@ -7,8 +7,9 @@
 
 .title {
   display: block;
-  font-size: $xl-size;
+  font-size: $xxl-size;
   font-weight: bold;
+  // margin: $xl-size 0;
   text-align: center;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .skills-wrapper {
-  margin: $m-size $l-size;
+  margin: $xxxl-size $l-size;
 }
 
 .skills {

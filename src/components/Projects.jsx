@@ -33,10 +33,12 @@ const Projects = () => {
   const videoApp = {
     title: "Video App",
     stack: "Firestore/React",
-    description: "Coming soon... :)",
+    description: "Coming soon...",
     gitHubUrl: "",
     demoUrl: "",
   };
+
+  // add Vanilla JS apps - calculator / snake / clock
 
   return (
     <div className="content_wrapper">

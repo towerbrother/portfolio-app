@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
 import About from "./About";
-import Education from "./Education";
+import Skills from "./Skills";
 import Projects from "./Projects";
 
 const AppRouter = () => (
@@ -14,7 +14,7 @@ const AppRouter = () => (
       <Switch>
         <Route path="/" component={Home} exact={true} />
         <Route path="/about" component={About} />
-        <Route path="/education" component={Education} />
+        <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
       </Switch>
     </BrowserRouter>

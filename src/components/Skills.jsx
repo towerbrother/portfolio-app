@@ -1,7 +1,7 @@
 import React from "react";
 import EducationCard from "./common/EducationCard";
 
-const Education = () => {
+const Skills = () => {
   const online = {
     title: "Online tutorials",
     date: "Sept-2019 - Ongoing",
@@ -28,6 +28,21 @@ const Education = () => {
 
   return (
     <div className="content_wrapper">
+      <div className="skills-wrapper">
+        <h1 className="title">Skills</h1>
+        <div className="skills">
+          <div className="skills__logo">
+            <i id="logo" className="devicon-html5-plain-wordmark"></i>
+            <i id="logo" className="devicon-css3-plain-wordmark"></i>
+            <i id="logo" className="devicon-sass-original"></i>
+            <i id="logo" className="devicon-javascript-plain"></i>
+            <i id="logo" className="devicon-react-original-wordmark"></i>
+            <i id="logo" className="devicon-git-plain-wordmark"></i>
+            <i id="logo" className="devicon-github-plain-wordmark"></i>
+            <i id="logo" className="devicon-heroku-plain-wordmark"></i>
+          </div>
+        </div>
+      </div>
       <h1 className="title">Education</h1>
       <div className="card-wrapper">
         <EducationCard
@@ -49,25 +64,10 @@ const Education = () => {
           title={cranfield.title}
           date={cranfield.date}
           description={cranfield.description}
-        />{" "}
-      </div>
-      <div className="skills-wrapper">
-        <h1 className="title">Skills</h1>
-        <div className="skills">
-          <div className="skills__logo">
-            <i id="logo" class="devicon-html5-plain-wordmark"></i>
-            <i id="logo" class="devicon-css3-plain-wordmark"></i>
-            <i id="logo" class="devicon-sass-original"></i>
-            <i id="logo" class="devicon-javascript-plain"></i>
-            <i id="logo" class="devicon-react-original-wordmark"></i>
-            <i id="logo" class="devicon-git-plain-wordmark"></i>
-            <i id="logo" class="devicon-github-plain-wordmark"></i>
-            <i id="logo" class="devicon-heroku-plain-wordmark"></i>
-          </div>
-        </div>
+        />
       </div>
     </div>
   );
 };
 
-export default Education;
+export default Skills;

@@ -8,10 +8,10 @@
 }
 
 .about__text__navlink {
-  color: var(--secondaryTextColor);
-  text-decoration: none;
+  color: var(--primaryTextColor);
+  text-decoration: underline;
   &:hover {
-    color: var(--primaryTextColor);
+    color: var(--secondaryTextColor);
   }
 }
 

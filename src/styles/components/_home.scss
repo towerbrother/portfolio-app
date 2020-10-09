@@ -14,7 +14,7 @@
   margin-bottom: 0;
   .home__statement__navlink {
     color: var(--primaryTextColor);
-    text-decoration: none;
+    text-decoration: underline;
     &:hover {
       color: var(--secondaryTextColor);
     }

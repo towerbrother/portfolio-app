@@ -1,8 +1,6 @@
 .toggle-view {
-  // https://stackoverflow.com/questions/38948102/center-one-and-right-left-align-other-flexbox-element
-  position: absolute;
-  right: 0;
-  top: 0;
+  font-size: $m-size;
+  margin: $m-size 0;
 }
 
 .toggle-view__checkbox {
@@ -17,7 +15,6 @@
   cursor: pointer;
   display: flex;
   height: $l-size;
-  margin: $m-size $xl-size $m-size $m-size;
   justify-content: space-between;
   padding: 3px;
   position: relative;
@@ -41,4 +38,10 @@
 .toggle-view__icon {
   color: $tower-orange;
   padding: 1px;
+}
+
+@media (min-width: $mobile-breakpoint) {
+}
+
+@media (min-width: $desktop-breakpoint) {
 }

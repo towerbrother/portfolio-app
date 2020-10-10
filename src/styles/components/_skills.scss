@@ -1,25 +1,40 @@
-.card-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: $l-size;
-}
-
 .title {
   display: block;
   font-size: $xxl-size;
-  font-weight: bold;
-  // margin: $xl-size 0;
   text-align: center;
+}
+
+.skills-wrapper {
+  margin: $m-size 0 $xxxl-size 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 $m-size;
+}
+
+.skills__logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  #logo {
+    font-size: $xxl-size;
+    padding: $s-size;
+  }
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
   border: 0.4rem solid var(--primaryTextColor);
-  border-radius: 1rem;
-  min-height: 17rem;
-  min-width: 28rem;
-  max-height: 17rem;
-  max-width: 28rem;
+  border-radius: $s-size;
+  max-width: 90vw;
   margin: $s-size;
   padding: $s-size;
 }
@@ -32,32 +47,37 @@
 }
 
 .card__subtitle {
+  font-size: $m-size;
   font-style: italic;
 }
 
-.skills-wrapper {
-  margin: $xxxl-size $l-size;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 $m-size;
-}
-
-.skills__logo {
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: $s-size;
-  #logo {
-    font-size: $xxxl-size;
-  }
+.card__description {
+  font-size: $m-size;
 }
 
 @media (min-width: $mobile-breakpoint) {
+  .title {
+    font-size: $xxxl-size;
+  }
+
+  .skills-wrapper {
+    margin: $l-size 0 $xxxl-size 0;
+  }
+
+  .skills__logo {
+    #logo {
+      font-size: $xxxl-size;
+      padding: $l-size;
+    }
+  }
+
+  .card {
+    min-height: 17rem;
+    min-width: 28rem;
+    max-height: 17rem;
+    max-width: 28rem;
+  }
 }
+
 @media (min-width: $desktop-breakpoint) {
 }

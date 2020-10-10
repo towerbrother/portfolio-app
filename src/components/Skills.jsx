@@ -56,14 +56,14 @@ const Skills = () => {
           description={meetup.description}
         />
         <EducationCard
-          title={pisa.title}
-          date={pisa.date}
-          description={pisa.description}
-        />
-        <EducationCard
           title={cranfield.title}
           date={cranfield.date}
           description={cranfield.description}
+        />
+        <EducationCard
+          title={pisa.title}
+          date={pisa.date}
+          description={pisa.description}
         />
       </div>
     </div>

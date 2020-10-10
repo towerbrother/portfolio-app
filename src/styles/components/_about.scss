@@ -25,20 +25,21 @@
 @media (min-width: $mobile-breakpoint) {
   .about__text {
     font-size: $xl-size;
-    max-width: 70vw;
+    max-width: 75vw;
     padding: 0 $s-size;
     margin: 0 auto;
     text-align: left;
     p {
-      margin: $l-size 0;
+      margin: $m-size 0;
     }
     .buttons {
       button {
         font-size: $xl-size;
-        margin-top: $l-size;
+        margin-top: $s-size;
       }
     }
   }
 }
+
 @media (min-width: $desktop-breakpoint) {
 }

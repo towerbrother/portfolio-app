@@ -32,28 +32,6 @@
   visibility: hidden;
 }
 
-.home__buttons {
-  button {
-    background-color: var(--primaryBackgroundColor);
-    border-radius: $s-size;
-    border: 0.4rem solid var(--primaryTextColor);
-    color: var(--primaryTextColor);
-    margin: $s-size;
-    padding: $m-size;
-    .home__buttons__link {
-      color: var(--primaryTextColor);
-      text-decoration: none;
-    }
-    &:hover {
-      background-color: var(--primaryTextColor);
-      color: var(--primaryBackgroundColor);
-      .home__buttons__link {
-        color: var(--primaryBackgroundColor);
-      }
-    }
-  }
-}
-
 // =====================================================
 
 // Mid-size
@@ -80,11 +58,5 @@
   .home__greetings__name {
     position: relative;
     visibility: visible;
-  }
-
-  .home__buttons {
-    button {
-      margin: $m-size $m-size $m-size 0;
-    }
   }
 }

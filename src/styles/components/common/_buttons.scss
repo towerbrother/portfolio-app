@@ -1,0 +1,41 @@
+// Mobile
+.buttons {
+  button {
+    background-color: var(--primaryBackgroundColor);
+    border-radius: $s-size;
+    border: 0.4rem solid var(--primaryTextColor);
+    color: var(--primaryTextColor);
+    font-size: $l-size;
+    font-weight: bold;
+    margin: $s-size;
+    padding: $m-size;
+    .button__link {
+      color: var(--primaryTextColor);
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: var(--primaryTextColor);
+      color: var(--primaryBackgroundColor);
+      .button__link {
+        color: var(--primaryBackgroundColor);
+      }
+    }
+  }
+}
+
+// =====================================================
+
+// Mid-size
+@media (min-width: $mobile-breakpoint) {
+}
+
+// =====================================================
+
+// Full size
+@media (min-width: $desktop-breakpoint) {
+  .buttons {
+    button {
+      margin: $m-size $m-size $m-size 0;
+    }
+  }
+}

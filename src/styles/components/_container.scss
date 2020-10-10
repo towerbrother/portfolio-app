@@ -2,15 +2,15 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   height: 100%;
   width: 100%;
-  flex-wrap: nowrap;
 }
 
 .content_wrapper {
   color: var(--primaryTextColor);
   flex-grow: 1;
-  margin: $s-size $l-size 0 $l-size;
+  margin: 0 $s-size;
   overflow: auto;
 }
 

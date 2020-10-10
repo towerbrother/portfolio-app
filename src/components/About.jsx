@@ -3,10 +3,9 @@ import React from "react";
 const About = () => (
   <div className="content_wrapper">
     <div className="about__text">
-      <p>Hi, I'm Giorgio (aka Tower)!</p>
       <p>
         I'm a{" "}
-        <label className="is_red">
+        <label className="is_colored">
           self-taught JavaScript / React developer
         </label>{" "}
         with a passion for solving problems using technology.
@@ -22,23 +21,27 @@ const About = () => (
         and teamworking skills as a key for personal and professional success.
       </p>
       <p>
-        <label className="is_red">
+        <label className="is_colored">
           Why do I want to transition into programming?
         </label>{" "}
         I want to design, build, and develop solutions to improve people's
         lives.
       </p>
-      <p>
-        I'm currently looking for a full-time Front End Developer role.{" "}
-        <a
-          className="about__text__navlink"
-          href="mailto:giorgio.torre8@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Let's chat!
-        </a>
-      </p>
+      <p>I'm currently looking for a full-time Front End Developer role.</p>
+      <div className="buttons">
+        {/* <div className="about__button"> */}
+        <button>
+          <a
+            className="button__link"
+            href="mailto:giorgio.torre8@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Let's chat!
+          </a>
+        </button>
+        {/* </div> */}
+      </div>
     </div>
   </div>
 );

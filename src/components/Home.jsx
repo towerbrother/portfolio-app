@@ -16,10 +16,10 @@ const Home = () => (
       <p className="home__description">
         Front End Developer - currently looking for a full-time role.
       </p>
-      <div className="home__buttons">
-        <button className="home__buttons__github">
+      <div className="buttons">
+        <button>
           <a
-            className="home__buttons__link"
+            className="button__link"
             href="https://github.com/towerbrother"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,9 +27,9 @@ const Home = () => (
             GitHub
           </a>
         </button>
-        <button className="home__buttons__linkedin">
+        <button>
           <a
-            className="home__buttons__link"
+            className="button__link"
             href="https://www.linkedin.com/in/giorgiotorre/"
             target="_blank"
             rel="noopener noreferrer"
@@ -37,9 +37,9 @@ const Home = () => (
             LinkedIn
           </a>
         </button>
-        <button className="home__buttons__email">
+        <button>
           <a
-            className="home__buttons__link"
+            className="button__link"
             href="mailto:giorgio.torre8@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,8 +47,8 @@ const Home = () => (
             Contact Me
           </a>
         </button>
-        <button className="home__buttons__projects">
-          <NavLink className="home__buttons__link" to="/projects">
+        <button>
+          <NavLink className="button__link" to="/projects">
             See what I can do!
           </NavLink>
         </button>

@@ -1,25 +1,44 @@
 .about__text {
-  font-size: $l-size;
+  font-size: $m-size;
   font-weight: bold;
-  margin: 0 auto;
-  max-width: 75vw;
-  padding: 0 $s-size;
+  max-width: 95vw;
+  padding: 0 $xs-size;
   text-align: left;
-}
-
-.about__text__navlink {
-  color: var(--primaryTextColor);
-  text-decoration: underline;
-  &:hover {
-    color: var(--secondaryTextColor);
+  p {
+    margin: $m-size 0;
+  }
+  .buttons {
+    text-align: center;
+    button {
+      font-size: $m-size;
+      font-weight: bold;
+      padding: $s-size;
+      margin-top: 0;
+    }
   }
 }
 
-.is_red {
+.is_colored {
   color: var(--secondaryTextColor);
 }
 
 @media (min-width: $mobile-breakpoint) {
+  .about__text {
+    font-size: $xl-size;
+    max-width: 70vw;
+    padding: 0 $s-size;
+    margin: 0 auto;
+    text-align: left;
+    p {
+      margin: $l-size 0;
+    }
+    .buttons {
+      button {
+        font-size: $xl-size;
+        margin-top: $l-size;
+      }
+    }
+  }
 }
 @media (min-width: $desktop-breakpoint) {
 }

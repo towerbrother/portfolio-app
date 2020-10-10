@@ -15,24 +15,26 @@ const ProjectCard = ({
         <h1>{stack}</h1>
         <h2>{title}</h2>
         <h3>{description}</h3>
-        <div className="project_card__overlay__links">
-          <a
-            className="project_card__overlay__links__link"
-            href={gitHubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Source
-          </a>
+        <div className="buttons">
+          <div className="project_card__overlay__links">
+            <a
+              className="project_card__overlay__links__link"
+              href={gitHubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Source
+            </a>
 
-          <a
-            className="project_card__overlay__links__link"
-            href={demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Demo
-          </a>
+            <a
+              className="project_card__overlay__links__link"
+              href={demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Demo
+            </a>
+          </div>
         </div>
       </div>
     </div>

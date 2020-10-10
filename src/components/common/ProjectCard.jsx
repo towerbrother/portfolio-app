@@ -16,26 +16,38 @@ const ProjectCard = ({
         <h2>{title}</h2>
         <h3>{description}</h3>
         <div className="buttons">
-          <button>
-            <a
-              className="button__link"
-              href={gitHubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          {gitHubUrl === "" ? (
+            <button className="button__link" disabled>
               Source
-            </a>
-          </button>
-          <button>
-            <a
-              className="button__link"
-              href={demoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </button>
+          ) : (
+            <button>
+              <a
+                className="button__link"
+                href={gitHubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source
+              </a>
+            </button>
+          )}
+          {demoUrl === "" ? (
+            <button className="button__link" disabled>
               Demo
-            </a>
-          </button>
+            </button>
+          ) : (
+            <button>
+              <a
+                className="button__link"
+                href={demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
+              </a>
+            </button>
+          )}
         </div>
       </div>
     </div>

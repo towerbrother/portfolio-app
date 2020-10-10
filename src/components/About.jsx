@@ -29,7 +29,6 @@ const About = () => (
       </p>
       <p>I'm currently looking for a full-time Front End Developer role.</p>
       <div className="buttons">
-        {/* <div className="about__button"> */}
         <button>
           <a
             className="button__link"
@@ -40,7 +39,6 @@ const About = () => (
             Let's chat!
           </a>
         </button>
-        {/* </div> */}
       </div>
     </div>
   </div>

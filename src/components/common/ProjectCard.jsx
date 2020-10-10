@@ -16,28 +16,56 @@ const ProjectCard = ({
         <h2>{title}</h2>
         <h3>{description}</h3>
         <div className="buttons">
-          <div className="project_card__overlay__links">
+          <button>
             <a
-              className="project_card__overlay__links__link"
+              className="button__link"
               href={gitHubUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Source
+              Source
             </a>
-
+          </button>
+          <button>
             <a
-              className="project_card__overlay__links__link"
+              className="button__link"
               href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Demo
+              Demo
             </a>
-          </div>
+          </button>
         </div>
       </div>
     </div>
+    {/* <div
+      className="project_card__buttons"
+      style={{ position: "absolute", visibility: "hidden" }}
+    >
+      <div className="buttons">
+        <button>
+          <a
+            className="button__link"
+            href={gitHubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source
+          </a>
+        </button>
+        <button>
+          <a
+            className="button__link"
+            href={demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Demo
+          </a>
+        </button>
+      </div>
+    </div> */}
   </div>
 );
 

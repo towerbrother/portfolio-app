@@ -25,17 +25,18 @@
 @media (min-width: $mobile-breakpoint) {
   .about__text {
     font-size: $xl-size;
-    max-width: 75vw;
+    max-width: 80vw;
     padding: 0 $s-size;
     margin: 0 auto;
+    margin-top: $xxl-size;
     text-align: left;
     p {
-      margin: $m-size 0;
+      margin: $s-size 0;
     }
     .buttons {
       button {
         font-size: $xl-size;
-        margin-top: $s-size;
+        margin-top: $xxl-size;
       }
     }
   }

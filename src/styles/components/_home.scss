@@ -32,10 +32,11 @@
   visibility: hidden;
 }
 
-// =====================================================
-
-// Mid-size
 @media (min-width: $mobile-breakpoint) {
+  .home {
+    margin-top: $xxxl-size;
+  }
+
   .home__description {
     position: relative;
     visibility: visible;
@@ -43,9 +44,6 @@
   }
 }
 
-// =====================================================
-
-// Full size
 @media (min-width: $desktop-breakpoint) {
   .home {
     text-align: left;

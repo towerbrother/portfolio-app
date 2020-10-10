@@ -27,9 +27,9 @@
   margin: 0;
 }
 
-// This will become a vertical mobile navigation bar
 .header__routes {
-  display: none;
+  position: absolute;
+  visibility: hidden;
 }
 
 .header__icon {
@@ -68,13 +68,16 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    font-size: $xl-size;
     justify-content: space-evenly;
+    position: relative;
+    visibility: visible;
   }
 
   .header__routes__element {
     background-color: transparent;
     color: var(--primaryTextColor);
+    font-size: $xl-size;
+    font-weight: bold;
     margin: $xs-size $l-size;
     text-decoration: none;
     &:hover {

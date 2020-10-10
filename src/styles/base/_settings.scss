@@ -13,10 +13,10 @@ $m-size: 1.6rem; // 16px
 $l-size: 2.4rem;
 $xl-size: 3.2rem;
 $xxl-size: 4rem;
-$xxxl-size: 6.8rem;
+$xxxl-size: 7rem;
 $image-size: 50rem;
 $image-max-size: 35rem;
 
 // Breakpoints
-$mobile-breakpoint: 45rem;
-$desktop-breakpoint: 85rem;
+$mobile-breakpoint: 30rem; // 30rem=480px
+$desktop-breakpoint: 70rem; // 85rem=1360px

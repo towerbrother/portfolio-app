@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom";
 const Home = () => (
   <div className="content_wrapper">
     <div className="home">
-      <h1 className="home__greetings">Hi, I'm Giorgio!</h1>
+      <h1 className="home__greetings">Hi!</h1>
+      <h1 className="home__greetings__name">I'm Giorgio!</h1>
       <h2 className="home__statement">
         I build{" "}
         <NavLink className="home__statement__navlink" to="/projects">
@@ -16,7 +17,7 @@ const Home = () => (
         Front End Developer - currently looking for a full-time role.
       </p>
       <div className="home__buttons">
-        <button>
+        <button className="home__buttons__github">
           <a
             className="home__buttons__link"
             href="https://github.com/towerbrother"
@@ -26,7 +27,7 @@ const Home = () => (
             GitHub
           </a>
         </button>
-        <button>
+        <button className="home__buttons__linkedin">
           <a
             className="home__buttons__link"
             href="https://www.linkedin.com/in/giorgiotorre/"
@@ -36,7 +37,7 @@ const Home = () => (
             LinkedIn
           </a>
         </button>
-        <button>
+        <button className="home__buttons__email">
           <a
             className="home__buttons__link"
             href="mailto:giorgio.torre8@gmail.com"
@@ -46,7 +47,7 @@ const Home = () => (
             Contact Me
           </a>
         </button>
-        <button>
+        <button className="home__buttons__projects">
           <NavLink className="home__buttons__link" to="/projects">
             See what I can do!
           </NavLink>

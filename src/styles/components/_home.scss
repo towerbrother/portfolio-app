@@ -3,15 +3,21 @@
   margin: 0 auto;
   max-width: 90rem;
   padding: 0 $s-size;
-  text-align: left;
+  text-align: center;
 }
 
 .home__greetings {
   font-size: $xxxl-size;
+  margin: $m-size;
+}
+
+.home__greetings__name {
+  position: absolute;
+  visibility: hidden;
 }
 
 .home__statement {
-  margin-bottom: 0;
+  margin: $l-size 0;
   .home__statement__navlink {
     color: var(--primaryTextColor);
     text-decoration: underline;
@@ -22,7 +28,8 @@
 }
 
 .home__description {
-  margin-top: $s-size;
+  position: absolute;
+  visibility: hidden;
 }
 
 .home__buttons {
@@ -31,7 +38,7 @@
     border-radius: $s-size;
     border: 0.4rem solid var(--primaryTextColor);
     color: var(--primaryTextColor);
-    margin: $l-size $xl-size $l-size 0;
+    margin: $s-size;
     padding: $m-size;
     .home__buttons__link {
       color: var(--primaryTextColor);
@@ -47,7 +54,37 @@
   }
 }
 
+// =====================================================
+
+// Mid-size
 @media (min-width: $mobile-breakpoint) {
+  .home__description {
+    position: relative;
+    visibility: visible;
+    margin-top: $s-size;
+  }
 }
+
+// =====================================================
+
+// Full size
 @media (min-width: $desktop-breakpoint) {
+  .home {
+    text-align: left;
+  }
+
+  .home__greetings {
+    margin: $xl-size 0;
+  }
+
+  .home__greetings__name {
+    position: relative;
+    visibility: visible;
+  }
+
+  .home__buttons {
+    button {
+      margin: $m-size $m-size $m-size 0;
+    }
+  }
 }

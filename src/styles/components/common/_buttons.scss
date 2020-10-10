@@ -12,13 +12,6 @@
       color: var(--primaryTextColor);
       text-decoration: none;
     }
-    &:hover {
-      background-color: var(--primaryTextColor);
-      color: var(--primaryBackgroundColor);
-      .button__link {
-        color: var(--primaryBackgroundColor);
-      }
-    }
   }
 }
 
@@ -29,6 +22,13 @@
   .buttons {
     button {
       margin: $m-size $m-size $m-size 0;
+      &:hover {
+        background-color: var(--primaryTextColor);
+        color: var(--primaryBackgroundColor);
+        .button__link {
+          color: var(--primaryBackgroundColor);
+        }
+      }
     }
   }
 }

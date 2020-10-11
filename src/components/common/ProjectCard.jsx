@@ -52,7 +52,7 @@ const ProjectCard = ({
       </div>
     </div>
     {/* <div
-      className="project_card__buttons"
+      className="project_card__mobile__buttons"
       style={{ position: "absolute", visibility: "hidden" }}
     >
       <div className="buttons">

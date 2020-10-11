@@ -1,12 +1,11 @@
 .header_wrapper {
   flex-shrink: 0;
-  margin: $s-size;
+  margin: $m-size;
 }
 
 .header {
   align-items: center;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -27,9 +26,19 @@
   margin: 0;
 }
 
-.header__routes {
+.header__routes__desktop {
+  margin: 0;
   position: absolute;
   visibility: hidden;
+}
+
+.header__routes__mobile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  visibility: hidden; // need to work here to make it show
 }
 
 .header__icon {
@@ -39,9 +48,6 @@
   padding: 0 $xs-size;
 }
 
-// =====================================================
-
-// Mid-size
 @media (min-width: $mobile-breakpoint) {
   .header__home {
     font-size: $l-size;
@@ -49,12 +55,10 @@
 
   .header__icon {
     font-size: $xxxl-size;
+    margin: $m-size auto;
   }
 }
 
-// =====================================================
-
-// Full size
 @media (min-width: $desktop-breakpoint) {
   .header_wrapper {
     margin: $l-size;
@@ -64,11 +68,11 @@
     font-size: $l-size;
   }
 
-  .header__routes {
+  .header__routes__desktop {
     align-items: center;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    margin-left: auto;
     position: relative;
     visibility: visible;
   }
@@ -86,6 +90,7 @@
   }
 
   .header__icon {
-    display: none;
+    position: absolute;
+    visibility: hidden;
   }
 }

@@ -51,33 +51,6 @@ const ProjectCard = ({
         </div>
       </div>
     </div>
-    {/* <div
-      className="project_card__mobile__buttons"
-      style={{ position: "absolute", visibility: "hidden" }}
-    >
-      <div className="buttons">
-        <button>
-          <a
-            className="button__link"
-            href={gitHubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Source
-          </a>
-        </button>
-        <button>
-          <a
-            className="button__link"
-            href={demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Demo
-          </a>
-        </button>
-      </div>
-    </div> */}
   </div>
 );
 

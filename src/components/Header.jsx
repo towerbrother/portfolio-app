@@ -8,24 +8,40 @@ const Header = () => {
 
   return (
     <div className="header_wrapper">
-      <ul className={isOpen ? "header active" : "header"}>
+      <ul className={isOpen ? "active header" : "header"}>
         <li className="header__home">
-          <NavLink className="header__link" to="/">
+          <NavLink
+            className="header__link"
+            to="/"
+            onClick={isOpen ? () => setIsOpen(!isOpen) : null}
+          >
             Giorgio <label className="is_colored">Torre</label>
           </NavLink>
         </li>
         <li className="header__routes__element">
-          <NavLink className="header__link" to="/about">
+          <NavLink
+            className="header__link"
+            to="/about"
+            onClick={() => setIsOpen(!isOpen)}
+          >
             About
           </NavLink>
         </li>
         <li className="header__routes__element">
-          <NavLink className="header__link" to="/skills">
+          <NavLink
+            className="header__link"
+            to="/skills"
+            onClick={() => setIsOpen(!isOpen)}
+          >
             Skills
           </NavLink>
         </li>
         <li className="header__routes__element">
-          <NavLink className="header__link" to="/projects">
+          <NavLink
+            className="header__link"
+            to="/projects"
+            onClick={() => setIsOpen(!isOpen)}
+          >
             Projects
           </NavLink>
         </li>
@@ -35,6 +51,7 @@ const Header = () => {
             href="mailto:giorgio.torre8@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Contact
           </a>

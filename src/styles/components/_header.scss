@@ -24,7 +24,7 @@ a {
   align-items: center;
   list-style-type: none;
   font-size: $s-size;
-  margin: $xs-size $xs-size $m-size $xs-size;
+  margin: $m-size $xs-size;
   padding: 0;
 }
 
@@ -46,16 +46,11 @@ a {
 }
 
 .header__routes__element {
-  padding: $xs-size;
+  padding: $s-size 0;
   order: 3;
   width: 100%;
   text-align: center;
   display: none;
-  .header__link {
-    &:hover {
-      color: var(--secondaryTextColor);
-    }
-  }
 }
 
 .active .header__routes__element {
@@ -104,6 +99,11 @@ a {
     width: auto;
     padding: $m-size $xl-size 0 0;
     font-size: $xl-size;
+    .header__link {
+      &:hover {
+        color: var(--secondaryTextColor);
+      }
+    }
   }
 
   .header__icon {

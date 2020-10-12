@@ -55,7 +55,7 @@
   font-size: $m-size;
 }
 
-@media (min-width: $mobile-breakpoint) {
+@media (min-width: $tablet-breakpoint) {
   .title {
     font-size: $xxxl-size;
   }

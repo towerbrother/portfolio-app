@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-@media (min-width: $mobile-breakpoint) {
+@media (min-width: $tablet-breakpoint) {
   .footer_wrapper {
     margin: $s-size 0;
   }

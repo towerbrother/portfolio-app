@@ -32,7 +32,7 @@
   visibility: hidden;
 }
 
-@media (min-width: $mobile-breakpoint) {
+@media (min-width: $tablet-breakpoint) {
   .home {
     margin-top: $xxxl-size;
   }

@@ -27,7 +27,7 @@
   visibility: hidden;
 }
 
-@media (min-width: $mobile-breakpoint) {
+@media (min-width: $tablet-breakpoint) {
   .project_card {
     margin: $m-size;
     max-height: $card-max-size;

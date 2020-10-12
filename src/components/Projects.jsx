@@ -27,7 +27,7 @@ const Projects = () => {
     stack: "Firestore/React",
     description: "Keep track of your finances.",
     gitHubUrl: "https://github.com/towerbrother/budget-app",
-    demoUrl: "https://towerbrother.github.io/budget-app",
+    demoUrl: "",
   };
 
   const videoApp = {

@@ -1,6 +1,7 @@
-/* Mobile header */
 .header__link {
   color: var(--primaryTextColor);
+  font-size: $l-size;
+  font-weight: bold;
   text-decoration: none;
   .is_colored {
     cursor: pointer;
@@ -24,14 +25,12 @@ a {
   list-style-type: none;
   font-size: $s-size;
   margin: $xs-size $xs-size $m-size $xs-size;
+  padding: 0;
 }
 
 .header__home {
   font-size: $s-size;
-  padding: $xs-size $s-size $xs-size 0;
-  h1 {
-    margin: 0;
-  }
+  padding: $xs-size 0 0 $xs-size;
 }
 
 .header li .navlink a {
@@ -43,6 +42,7 @@ a {
   color: var(--primaryTextColor);
   order: 1;
   font-size: $l-size;
+  padding: $s-size $s-size 0 0;
 }
 
 .header__routes__element {
@@ -62,17 +62,17 @@ a {
   display: block;
 }
 
-/* Tablet header */
 @media (min-width: $tablet-breakpoint) {
   .header {
     justify-content: center;
-    font-size: $m-size;
+  }
+
+  .header__link {
+    font-size: $xl-size;
   }
 
   .header__home {
     flex: 1;
-    font-size: $m-size;
-    padding: $s-size 0 $s-size $s-size;
   }
 
   .header__icon {
@@ -80,11 +80,10 @@ a {
     text-align: right;
     order: 2;
     font-size: $xl-size;
-    padding: $s-size $s-size $s-size 0;
+    padding: 0 $s-size;
   }
 }
 
-/* Desktop header */
 @media (min-width: $desktop-breakpoint) {
   .header {
     align-items: flex-start;
@@ -111,106 +110,3 @@ a {
     display: none;
   }
 }
-
-//////////////////////////////////////////////////////////////////////////////
-
-// .header_wrapper {
-//   // flex-shrink: 0;
-//   // margin: $m-size;
-//   color: var(--primaryTextColor);
-//   padding: 0 $m-size;
-// }
-
-// .header {
-//   align-header__routes__elements: center; //
-//   display: flex; //
-//   flex-wrap: wrap; //
-//   justify-content: space-between; //
-//   * {
-//     display: block;
-//     padding: $s-size $xs-size;
-//   }
-// }
-
-// .header__home {
-//   margin: 0;
-//   padding: $xs-size $s-size $xs-size 0;
-//   text-decoration: none; //
-// }
-
-// .header__routes__element {
-//   display: none;
-//   padding: $xs-size; //
-//   order: 2;
-//   text-decoration: none; //
-// }
-
-// .header__icon {
-//   // color: var(--primaryTextColor);
-//   font-size: $l-size;
-//   // margin: $xs-size;
-//   // padding: 0 $xs-size;
-//   order: 1;
-// }
-
-// // .header__routes__desktop {
-// //   margin: 0;
-// //   position: absolute;
-// //   visibility: hidden;
-// // }
-
-// // .header__routes__mobile {
-// //   align-header__routes__elements: center;
-// //   display: flex;
-// //   flex-direction: column;
-// //   justify-content: space-evenly;
-// //   position: absolute;
-// //   visibility: hidden; // need to work here to make it show
-// // }
-
-// @media (min-width: $mobile-breakpoint) {
-//   .header__home {
-//     font-size: $l-size;
-//   }
-
-//   .header__icon {
-//     font-size: $xxxl-size;
-//     margin: $m-size auto;
-//   }
-// }
-
-// @media (min-width: $desktop-breakpoint) {
-//   .header_wrapper {
-//     margin: $l-size;
-//   }
-
-//   .header__home {
-//     font-size: $l-size;
-//   }
-
-//   .header__routes__desktop {
-//     align-header__routes__elements: center;
-//     display: flex;
-//     justify-content: space-evenly;
-//     margin-left: auto;
-//     position: relative;
-//     visibility: visible;
-//   }
-
-//   .header__routes__element {
-//     background-color: transparent;
-//     color: var(--primaryTextColor);
-//     font-size: $xl-size;
-//     font-weight: bold;
-//     margin: $xs-size $l-size;
-//     text-decoration: none;
-// &:hover {
-//   color: var(--secondaryTextColor);
-// }
-//   }
-
-//   .header__icon {
-//     position: absolute;
-//     visibility: hidden;
-//   }
-// }

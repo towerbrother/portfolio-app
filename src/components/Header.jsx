@@ -8,12 +8,10 @@ const Header = () => {
 
   return (
     <div className="header_wrapper">
-      <ul className="header">
+      <ul className={isOpen ? "header active" : "header"}>
         <li className="header__home">
           <NavLink className="header__link" to="/">
-            <h1>
-              Giorgio <label className="is_colored">Torre</label>
-            </h1>
+            Giorgio <label className="is_colored">Torre</label>
           </NavLink>
         </li>
         <li className="header__routes__element">

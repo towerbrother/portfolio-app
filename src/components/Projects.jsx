@@ -11,7 +11,7 @@ const Projects = () => {
     stack: "React",
     description: "Check the weather before getting out of the house.",
     gitHubUrl: "https://github.com/towerbrother/weather-app",
-    demoUrl: "https://tower-weather-app.herokuapp.com/",
+    demoUrl: "https://towerbrother.github.io/weather-app",
   };
 
   const indecisionApp = {
@@ -19,7 +19,7 @@ const Projects = () => {
     stack: "React",
     description: "Blame fate when faced with a hard decision!?",
     gitHubUrl: "https://github.com/towerbrother/indecision-app",
-    demoUrl: "https://tower-indecision-app.herokuapp.com/",
+    demoUrl: "https://towerbrother.github.io/indecision-app",
   };
 
   const budgetApp = {
@@ -27,7 +27,7 @@ const Projects = () => {
     stack: "Firestore/React",
     description: "Keep track of your finances.",
     gitHubUrl: "https://github.com/towerbrother/budget-app",
-    demoUrl: "https://tower-budget-app.herokuapp.com/",
+    demoUrl: "https://towerbrother.github.io/budget-app",
   };
 
   const videoApp = {

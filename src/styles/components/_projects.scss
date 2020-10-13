@@ -4,56 +4,100 @@
   justify-content: center;
 }
 
-// https://www.w3schools.com/howto/howto_css_image_overlay.asp
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+}
 
-.project_card {
+.project-card {
   border-radius: $l-size;
-  margin: $s-size 0;
+  margin: $xs-size 0;
   max-height: auto;
   max-width: 90vw;
   position: relative;
   overflow: hidden;
 }
 
-.project_card__image {
+.project-card__image {
   opacity: 1;
   display: block;
   height: auto;
   max-width: 90vw;
 }
 
-.project_card__overlay {
+.project-card__overlay {
   position: absolute;
   visibility: hidden;
 }
 
+.project-card__mobile {
+  margin: 0 auto;
+  margin-bottom: $l-size;
+}
+
+.project-card__mobile__info {
+  display: flex;
+  flex-direction: column;
+  .mobile_title {
+    padding-top: $xs-size;
+    font-size: $m-size;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  .buttons {
+    margin: 0 auto;
+    button {
+      border: none;
+      padding: $xs-size;
+    }
+    .button__link {
+      border: 2px solid var(--primaryTextColor);
+      border-radius: $xs-size;
+      padding: $xs-size;
+      font-size: $s-size;
+      font-weight: bold;
+    }
+  }
+}
+
 @media (min-width: $tablet-breakpoint) {
-  .project_card {
-    margin: $m-size;
+  .project-card {
+    margin: $s-size;
     max-height: $card-max-size;
     max-width: $image-max-size;
-    position: relative;
-    overflow: hidden;
   }
 
-  .project_card__image {
+  .project-card__image {
     max-height: auto;
     max-width: $image-max-size;
     overflow: hidden;
   }
+
+  .mobile_title {
+    padding-top: $xs-size;
+    font-size: $l-size;
+  }
+
+  .buttons {
+    font-size: $m-size;
+    button {
+      padding: $xs-size;
+      margin: $xs-size;
+    }
+  }
 }
 
 @media (min-width: $desktop-breakpoint) {
-  .project_card__image {
+  .project-card__image {
     left: 50%;
     transition: 0.5s ease;
     backface-visibility: hidden;
   }
 
-  .project_card__overlay {
+  .project-card__overlay {
     left: 50%;
     opacity: 0;
-    padding: $s-size;
+    padding: $xs-size;
     position: absolute;
     text-align: center;
     top: 45%;
@@ -69,16 +113,21 @@
     }
   }
 
-  .project_card:hover .project_card__image {
+  .project-card:hover .project-card__image {
     opacity: 0.1;
   }
 
-  .project_card:hover .project_card__overlay {
+  .project-card:hover .project-card__overlay {
     opacity: 1;
   }
 
-  .project_card__overlay__info {
+  .project-card__overlay__info {
     font-size: $m-size;
     padding: $xs-size;
+  }
+
+  .project-card__mobile {
+    position: absolute;
+    visibility: hidden;
   }
 }

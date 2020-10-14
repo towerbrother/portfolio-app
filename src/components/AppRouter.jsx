@@ -9,7 +9,7 @@ import Projects from "./Projects";
 
 const AppRouter = () => (
   <div className="container">
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-app">
       <Header />
       <Switch>
         <Route path="/" component={Home} exact={true} />

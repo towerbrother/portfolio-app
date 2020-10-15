@@ -57,7 +57,7 @@ const Projects = () => {
     demoUrl: "https://towerbrother.github.io/JS-clock/",
   };
 
-  const drumKit = {
+  const drumkit = {
     title: "JS DrumKit",
     stack: "Javascript",
     description: "Shall we play?",

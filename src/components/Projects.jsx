@@ -5,6 +5,8 @@ import budgetAppImg from "../images/budget-app.PNG";
 import indecisionAppImg from "../images/indecision-app.PNG";
 import videoAppImg from "../images/video-app.PNG";
 import calculatorImg from "../images/calculator.PNG";
+import clockImg from "../images/clock.PNG";
+import drumkitImg from "../images/drumkit.PNG";
 
 const Projects = () => {
   const weatherApp = {
@@ -47,21 +49,21 @@ const Projects = () => {
     demoUrl: "https://towerbrother.github.io/JS-calculator/",
   };
 
-  // const clock = {
-  //   title: "JS Clock",
-  //   stack: "Javascript",
-  //   description: "What time is it?",
-  //   gitHubUrl: "https://github.com/towerbrother/JS-clock",
-  //   demoUrl: "https://towerbrother.github.io/JS-clock/",
-  // };
+  const clock = {
+    title: "JS Clock",
+    stack: "Javascript",
+    description: "What time is it?",
+    gitHubUrl: "https://github.com/towerbrother/JS-clock",
+    demoUrl: "https://towerbrother.github.io/JS-clock/",
+  };
 
-  // const drumKit = {
-  //   title: "JS DrumKit",
-  //   stack: "Javascript",
-  //   description: "Shall we play?",
-  //   gitHubUrl: "https://github.com/towerbrother/JS-drumkit",
-  //   demoUrl: "https://towerbrother.github.io/JS-drumkit/",
-  // };
+  const drumKit = {
+    title: "JS DrumKit",
+    stack: "Javascript",
+    description: "Shall we play?",
+    gitHubUrl: "https://github.com/towerbrother/JS-drumkit",
+    demoUrl: "https://towerbrother.github.io/JS-drumkit/",
+  };
 
   // const snake = {
   //   title: "JS Snake",
@@ -113,6 +115,22 @@ const Projects = () => {
           imgSrc={videoAppImg}
           gitHubUrl={videoApp.gitHubUrl}
           demoUrl={videoApp.demoUrl}
+        />
+        <ProjectCard
+          title={drumkit.title}
+          stack={drumkit.stack}
+          description={drumkit.description}
+          imgSrc={drumkitImg}
+          gitHubUrl={drumkit.gitHubUrl}
+          demoUrl={drumkit.demoUrl}
+        />
+        <ProjectCard
+          title={clock.title}
+          stack={clock.stack}
+          description={clock.description}
+          imgSrc={clockImg}
+          gitHubUrl={clock.gitHubUrl}
+          demoUrl={clock.demoUrl}
         />
       </div>
     </div>

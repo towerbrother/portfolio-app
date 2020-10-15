@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a545680c793bfece9fafa0e26e5da113",
+    "revision": "63bd4e46794204e33dc7b7438b78a32a",
     "url": "/portfolio-app/index.html"
   },
   {
-    "revision": "58467f3e8e0cf8b726bb",
+    "revision": "8516fc98289c38ec7691",
     "url": "/portfolio-app/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "531cee79e5e73d630f49",
+    "revision": "793438e36843055c242b",
     "url": "/portfolio-app/static/css/main.c48f2af0.chunk.css"
   },
   {
-    "revision": "58467f3e8e0cf8b726bb",
-    "url": "/portfolio-app/static/js/2.81ad76c7.chunk.js"
+    "revision": "8516fc98289c38ec7691",
+    "url": "/portfolio-app/static/js/2.daa1bb8b.chunk.js"
   },
   {
     "revision": "a3c66bc87fa121efed0250fdac2dfa2b",
-    "url": "/portfolio-app/static/js/2.81ad76c7.chunk.js.LICENSE.txt"
+    "url": "/portfolio-app/static/js/2.daa1bb8b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "531cee79e5e73d630f49",
-    "url": "/portfolio-app/static/js/main.33b094ab.chunk.js"
+    "revision": "793438e36843055c242b",
+    "url": "/portfolio-app/static/js/main.27957991.chunk.js"
   },
   {
     "revision": "9273fb07e8f782d2211c",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "223daec463cf1c2e146c64dc528fc67a",
     "url": "/portfolio-app/static/media/budget-app.223daec4.PNG"
+  },
+  {
+    "revision": "5e00c7691f7c454b125a1559cc75ade0",
+    "url": "/portfolio-app/static/media/calculator.5e00c769.PNG"
   },
   {
     "revision": "bf8129391b5d982dffad71254e6929ec",

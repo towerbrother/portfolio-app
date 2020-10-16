@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./common/ProjectCard";
 import weatherAppImg from "../images/weather-app.PNG";
-import budgetAppImg from "../images/budget-app.PNG";
+import expensesAppImg from "../images/expenses-app.PNG";
 import indecisionAppImg from "../images/indecision-app.PNG";
 import videoAppImg from "../images/video-app.PNG";
 import calculatorImg from "../images/calculator.PNG";
@@ -25,12 +25,12 @@ const Projects = () => {
     demoUrl: "https://towerbrother.github.io/indecision-app",
   };
 
-  const budgetApp = {
-    title: "Budget App",
+  const expensesApp = {
+    title: "Expenses App",
     stack: "Firestore/React",
     description: "Keep track of your finances.",
-    gitHubUrl: "https://github.com/towerbrother/budget-app",
-    demoUrl: "",
+    gitHubUrl: "https://github.com/towerbrother/expenses-app",
+    demoUrl: "https://towerbrother-expenses-app.herokuapp.com/",
   };
 
   const videoApp = {
@@ -101,12 +101,12 @@ const Projects = () => {
           demoUrl={calculator.demoUrl}
         />
         <ProjectCard
-          title={budgetApp.title}
-          stack={budgetApp.stack}
-          description={budgetApp.description}
-          imgSrc={budgetAppImg}
-          gitHubUrl={budgetApp.gitHubUrl}
-          demoUrl={budgetApp.demoUrl}
+          title={expensesApp.title}
+          stack={expensesApp.stack}
+          description={expensesApp.description}
+          imgSrc={expensesAppImg}
+          gitHubUrl={expensesApp.gitHubUrl}
+          demoUrl={expensesApp.demoUrl}
         />
         <ProjectCard
           title={videoApp.title}

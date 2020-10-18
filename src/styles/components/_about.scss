@@ -20,7 +20,7 @@
 
 @media (min-width: $tablet-breakpoint) {
   .about__text {
-    font-size: $xl-size;
+    font-size: $l-size;
     max-width: 80vw;
     padding: 0 $s-size;
     margin: 0 auto;
@@ -31,12 +31,19 @@
     }
     .buttons {
       button {
-        font-size: $xl-size;
-        margin-top: $xxl-size;
+        font-size: $l-size;
+        margin-top: $l-size;
       }
     }
   }
 }
 
 @media (min-width: $desktop-breakpoint) {
+  .about__text {
+    margin-top: $xl-size;
+    max-width: 55vw;
+    p {
+      padding: $xs-size 0;
+    }
+  }
 }

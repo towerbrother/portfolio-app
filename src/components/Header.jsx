@@ -58,11 +58,11 @@ const Header = () => {
         </li>
         <li className="header__icon">
           {isOpen ? (
-            <a href onClick={() => setIsOpen(!isOpen)}>
+            <a href="#" onClick={() => setIsOpen(!isOpen)}>
               <FontAwesomeIcon icon={faTimes} />
             </a>
           ) : (
-            <a href onClick={() => setIsOpen(!isOpen)}>
+            <a href="#" onClick={() => setIsOpen(!isOpen)}>
               <FontAwesomeIcon icon={faBars} />
             </a>
           )}

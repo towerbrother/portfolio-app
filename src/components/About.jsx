@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const About = () => (
   <div className="content_wrapper">
@@ -38,6 +39,11 @@ const About = () => (
           >
             Let's chat!
           </a>
+        </button>
+        <button>
+          <NavLink className="button__link" to="/projects">
+            See what I can do!
+          </NavLink>
         </button>
       </div>
     </div>

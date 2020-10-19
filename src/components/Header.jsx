@@ -21,6 +21,15 @@ const Header = () => {
         <li className="header__routes__element">
           <NavLink
             className="header__link"
+            to="/home"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className="header__routes__element">
+          <NavLink
+            className="header__link"
             to="/about"
             onClick={() => setIsOpen(!isOpen)}
           >

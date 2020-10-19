@@ -3,7 +3,7 @@ import ProjectCard from "./common/ProjectCard";
 import weatherAppImg from "../images/weather-app.PNG";
 import expensesAppImg from "../images/expenses-app.PNG";
 import indecisionAppImg from "../images/indecision-app.PNG";
-import videoAppImg from "../images/video-app.PNG";
+// import videoAppImg from "../images/video-app.PNG";
 import calculatorImg from "../images/calculator.PNG";
 import clockImg from "../images/clock.PNG";
 import drumkitImg from "../images/drumkit.PNG";
@@ -33,13 +33,13 @@ const Projects = () => {
     demoUrl: "https://towerbrother-expenses-app.herokuapp.com/",
   };
 
-  const videoApp = {
-    title: "Video App",
-    stack: "Firestore/React",
-    description: "Coming soon...",
-    gitHubUrl: "",
-    demoUrl: "",
-  };
+  // const videoApp = {
+  //   title: "Video App",
+  //   stack: "Firestore/React",
+  //   description: "Coming soon...",
+  //   gitHubUrl: "",
+  //   demoUrl: "",
+  // };
 
   const calculator = {
     title: "JS Calculator",
@@ -108,14 +108,14 @@ const Projects = () => {
           gitHubUrl={expensesApp.gitHubUrl}
           demoUrl={expensesApp.demoUrl}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title={videoApp.title}
           stack={videoApp.stack}
           description={videoApp.description}
           imgSrc={videoAppImg}
           gitHubUrl={videoApp.gitHubUrl}
           demoUrl={videoApp.demoUrl}
-        />
+        /> */}
         <ProjectCard
           title={drumkit.title}
           stack={drumkit.stack}

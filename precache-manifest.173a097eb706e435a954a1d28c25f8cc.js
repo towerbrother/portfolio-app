@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03c678ce53b4de8d53cedd60c9877c39",
+    "revision": "d534523949c3eae86d024d59ecaa9c08",
     "url": "/portfolio-app/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-app/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "b6c1ee19baaa47a1107d",
-    "url": "/portfolio-app/static/css/main.90f5d94c.chunk.css"
+    "revision": "f6acd72b0e9e46bf87a2",
+    "url": "/portfolio-app/static/css/main.6c1fa59b.chunk.css"
   },
   {
     "revision": "9f81ada94d48812baa50",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-app/static/js/2.1b7e9a14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6c1ee19baaa47a1107d",
-    "url": "/portfolio-app/static/js/main.ef32bbd7.chunk.js"
+    "revision": "f6acd72b0e9e46bf87a2",
+    "url": "/portfolio-app/static/js/main.0aaa679c.chunk.js"
   },
   {
     "revision": "9273fb07e8f782d2211c",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-app/static/media/indecision-app.bf812939.PNG"
   },
   {
-    "revision": "e1f1fe99e9e582310880b17ecdc4c8fd",
-    "url": "/portfolio-app/static/media/weather-app.e1f1fe99.PNG"
+    "revision": "b58cecfd28da11839e97e523fd9b79d2",
+    "url": "/portfolio-app/static/media/weather-app.b58cecfd.PNG"
   }
 ]);

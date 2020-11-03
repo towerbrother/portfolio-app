@@ -16,7 +16,7 @@ const Skills = () => {
   };
   const meetup = {
     title: "Codecademy Meetup",
-    date: "Sept-2019 - Ongoing",
+    date: "Jan-2019 - Ongoing",
     description:
       "Tutoring, pair programming, problem solving and portfolio building.",
   };

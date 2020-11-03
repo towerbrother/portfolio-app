@@ -2,9 +2,15 @@ import React from "react";
 import EducationCard from "./common/EducationCard";
 
 const Skills = () => {
+  const symposium = {
+    title: "Symposium OÜ",
+    date: "Feb-2019 - Ongoing",
+    description:
+      "Autonomous team of devs using React / React Router / Github / Agile.",
+  };
   const online = {
     title: "Online tutorials",
-    date: "Sept-2019 - Ongoing",
+    date: "Sept-2018 - Ongoing",
     description:
       "freeCodeCamp, Udemy, Code with Mosh, etc. to level up programming skills.",
   };
@@ -45,6 +51,11 @@ const Skills = () => {
       </div>
       <h1 className="title">Education</h1>
       <div className="card-wrapper">
+        <EducationCard
+          title={symposium.title}
+          date={symposium.date}
+          description={symposium.description}
+        />
         <EducationCard
           title={online.title}
           date={online.date}

@@ -12,9 +12,9 @@ const About = () => (
         with a passion for solving problems using technology.
       </p>
       <p>
-        For the past 12 months I've been using early mornings and late evenings
-        to learn and refine my skills. I love learning and I'm always hungry for
-        new challenges.
+        For the past years I've been using early mornings, late evenings and
+        weekends to learn, collaborate and refine my skills. I love learning and
+        I'm always hungry for new challenges.
       </p>
       <p>
         I’m a very organized, responsible and resilient individual. I bring

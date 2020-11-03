@@ -49,7 +49,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <h1 className="title">Education</h1>
+      <h1 className="title">Education / Experience</h1>
       <div className="card-wrapper">
         <EducationCard
           title={symposium.title}

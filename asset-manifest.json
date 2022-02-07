@@ -1,31 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.6c1fa59b.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.4ce4e79b.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.4ce4e79b.chunk.js.map",
-    "runtime-main.js": "/portfolio-app/static/js/runtime-main.9d41a791.js",
-    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.9d41a791.js.map",
-    "static/css/2.764ccc25.chunk.css": "/portfolio-app/static/css/2.764ccc25.chunk.css",
-    "static/js/2.1b7e9a14.chunk.js": "/portfolio-app/static/js/2.1b7e9a14.chunk.js",
-    "static/js/2.1b7e9a14.chunk.js.map": "/portfolio-app/static/js/2.1b7e9a14.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.1783fe00.css",
+    "main.js": "/portfolio-app/static/js/main.08b5208f.js",
+    "static/media/calculator.PNG": "/portfolio-app/static/media/calculator.48aa2f813aed69da2221.PNG",
+    "static/media/clock.PNG": "/portfolio-app/static/media/clock.39f87d5f395ba7158a9f.PNG",
+    "static/media/weather-app.PNG": "/portfolio-app/static/media/weather-app.6815a8a65f3dd64e1b5f.PNG",
+    "static/media/drumkit.PNG": "/portfolio-app/static/media/drumkit.c33359193bc27a5691bf.PNG",
+    "static/media/expenses-app.PNG": "/portfolio-app/static/media/expenses-app.97ae51a9bd522965ad29.PNG",
+    "static/media/indecision-app.PNG": "/portfolio-app/static/media/indecision-app.4366f8d42c729dc5b53c.PNG",
     "index.html": "/portfolio-app/index.html",
-    "precache-manifest.ed3a6b6139969c4ac15384da2dd9f3be.js": "/portfolio-app/precache-manifest.ed3a6b6139969c4ac15384da2dd9f3be.js",
-    "service-worker.js": "/portfolio-app/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/portfolio-app/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.6c1fa59b.chunk.css.map": "/portfolio-app/static/css/main.6c1fa59b.chunk.css.map",
-    "static/js/2.1b7e9a14.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.1b7e9a14.chunk.js.LICENSE.txt",
-    "static/media/calculator.PNG": "/portfolio-app/static/media/calculator.5e00c769.PNG",
-    "static/media/clock.PNG": "/portfolio-app/static/media/clock.07fd7fc2.PNG",
-    "static/media/drumkit.PNG": "/portfolio-app/static/media/drumkit.4a87952e.PNG",
-    "static/media/expenses-app.PNG": "/portfolio-app/static/media/expenses-app.223daec4.PNG",
-    "static/media/indecision-app.PNG": "/portfolio-app/static/media/indecision-app.bf812939.PNG",
-    "static/media/weather-app.PNG": "/portfolio-app/static/media/weather-app.043d2adb.PNG"
+    "main.1783fe00.css.map": "/portfolio-app/static/css/main.1783fe00.css.map",
+    "main.08b5208f.js.map": "/portfolio-app/static/js/main.08b5208f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d41a791.js",
-    "static/css/2.764ccc25.chunk.css",
-    "static/js/2.1b7e9a14.chunk.js",
-    "static/css/main.6c1fa59b.chunk.css",
-    "static/js/main.4ce4e79b.chunk.js"
+    "static/css/main.1783fe00.css",
+    "static/js/main.08b5208f.js"
   ]
 }

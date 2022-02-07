@@ -2,9 +2,15 @@ import React from "react";
 import EducationCard from "./common/EducationCard";
 
 const Skills = () => {
+  const stanz = {
+    title: "stellenanzeigen.de",
+    date: "Dec-2020 - Ongoing",
+    description:
+      "Part of the Core Team of stellenanzeige.de providing features according to agile methods.",
+  };
   const symposium = {
     title: "Symposium OÜ",
-    date: "Feb-2019 - Ongoing",
+    date: "Feb-2020 - Oct-2020",
     description:
       "Autonomous team of devs using React / React Router / Github / Agile.",
   };
@@ -44,13 +50,20 @@ const Skills = () => {
             <i id="logo" className="devicon-javascript-plain"></i>
             <i id="logo" className="devicon-react-original-wordmark"></i>
             <i id="logo" className="devicon-git-plain-wordmark"></i>
-            <i id="logo" className="devicon-github-plain-wordmark"></i>
+            <i id="logo" className="devicon-github-original-wordmark"></i>
             <i id="logo" className="devicon-heroku-plain-wordmark"></i>
+            <i id="logo" className="devicon-csharp-plain-wordmark"></i>
+            <i id="logo" className="devicon-dotnetcore-plain"></i>
           </div>
         </div>
       </div>
       <h1 className="title">Education / Experience</h1>
       <div className="card-wrapper">
+      <EducationCard
+          title={stanz.title}
+          date={stanz.date}
+          description={stanz.description}
+        />
         <EducationCard
           title={symposium.title}
           date={symposium.date}

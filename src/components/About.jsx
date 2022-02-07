@@ -7,12 +7,12 @@ const About = () => (
       <p>
         I'm a{" "}
         <label className="is_colored">
-          self-taught JavaScript / React developer
+          self-taught Software Developer
         </label>{" "}
         with a passion for solving problems using technology.
       </p>
       <p>
-        For the past years I've been using early mornings, late evenings and
+        For the past few years I've been using early mornings, late evenings and
         weekends to learn, collaborate and refine my skills. I love learning and
         I'm always hungry for new challenges.
       </p>
@@ -23,12 +23,11 @@ const About = () => (
       </p>
       <p>
         <label className="is_colored">
-          Why do I want to transition into programming?
+          Why did I transitioned into Software Development?
         </label>{" "}
         I want to design, build, and develop solutions to improve people's
         lives.
       </p>
-      <p>I'm currently looking for a full-time Front End Developer role.</p>
       <div className="buttons">
         <button>
           <a

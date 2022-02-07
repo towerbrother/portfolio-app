@@ -14,7 +14,7 @@ const Home = () => (
         that people need.
       </h2>
       <p className="home__description">
-        Front End Developer - currently looking for a full-time role.
+        Junior Software Developer @ stellenanzeigen.de GmbH & Co. KG
       </p>
       <div className="buttons">
         <button>

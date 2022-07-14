@@ -67,11 +67,6 @@ const Skills = () => {
           description={stanz.description}
         />
         <EducationCard
-          title={symposium.title}
-          date={symposium.date}
-          description={symposium.description}
-        />
-        <EducationCard
           title={online.title}
           date={online.date}
           description={online.description}

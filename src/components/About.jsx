@@ -1,20 +1,20 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const About = () => (
   <div className="content_wrapper">
     <div className="about__text">
       <p>
-        I'm a{" "}
-        <label className="is_colored">
-          self-taught Software Developer
-        </label>{" "}
+        I'm a{' '}
+        <label className="is_colored">self-taught Software Developer</label>{' '}
         with a passion for solving problems using technology.
       </p>
       <p>
-        For the past few years I've been using early mornings, late evenings and
-        weekends to learn, collaborate and refine my skills. I love learning and
-        I'm always hungry for new challenges.
+        I love challenges, problem-solving and projects delivery. I am a
+        self-starter who loves to learn new skills and improve existing ones. My
+        professional and life experiences brought to me a solid blend of
+        technical knowledge and project delivery awareness, a great combination
+        in today's fast-paced work environment.
       </p>
       <p>
         I’m a very organized, responsible and resilient individual. I bring
@@ -24,7 +24,7 @@ const About = () => (
       <p>
         <label className="is_colored">
           Why did I transitioned into Software Development?
-        </label>{" "}
+        </label>{' '}
         I want to design, build, and develop solutions to improve people's
         lives.
       </p>

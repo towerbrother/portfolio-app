@@ -45,7 +45,7 @@ const About = () => (
         <button className="button_alt">
           <Link
             className="button_alt__link"
-            to="/CV.pdf"
+            to="/Giorgio_Torre_CV.pdf"
             target="_blank"
             download
           >

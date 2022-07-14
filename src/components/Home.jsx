@@ -5,7 +5,9 @@ const Home = () => (
   <div className="content_wrapper">
     <div className="home">
       <h1 className="home__greetings">Hi!</h1>
-      <h1 className="home__greetings__name">I'm Giorgio!</h1>
+      <h1 className="home__greetings__name">
+        I'm <label className="is_colored">Giorgio</label>!
+      </h1>
       <h2 className="home__statement">
         I build{' '}
         <NavLink className="home__statement__navlink" to="/projects">
@@ -40,7 +42,7 @@ const Home = () => (
         <button className="button_alt">
           <Link
             className="button_alt__link"
-            to="/CV.pdf"
+            to="/Giorgio_Torre_CV.pdf"
             target="_blank"
             download
           >

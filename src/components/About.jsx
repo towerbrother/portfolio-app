@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const About = () => (
   <div className="content_wrapper">
@@ -10,23 +10,21 @@ const About = () => (
         with a passion for solving problems using technology.
       </p>
       <p>
-        I love challenges, problem-solving and projects delivery. I am a
-        self-starter who loves to learn new skills and improve existing ones. My
-        professional and life experiences brought to me a solid blend of
-        technical knowledge and project delivery awareness, a great combination
-        in today's fast-paced work environment.
+        I am a <label className="is_colored">self-starter</label> who loves to
+        learn new skills and improve existing ones. My professional and life
+        experiences brought to me a solid blend of technical knowledge and
+        project delivery awareness, a great combination in today's fast-paced
+        work environment.
       </p>
       <p>
-        I’m a very organized, responsible and resilient individual. I bring
-        broad commercial and management experience, well developed communication
-        and teamworking skills as a key for personal and professional success.
-      </p>
-      <p>
+        I’m a very <label className="is_colored">organized</label>,{' '}
+        <label className="is_colored">responsible</label> and{' '}
+        <label className="is_colored">resilient</label> individual. I bring
+        broad commercial and management experience, well developed{' '}
         <label className="is_colored">
-          Why did I transitioned into Software Development?
+          communication and teamworking skills
         </label>{' '}
-        I want to design, build, and develop solutions to improve people's
-        lives.
+        as a key for personal and professional success.
       </p>
       <div className="buttons">
         <button>
@@ -43,6 +41,16 @@ const About = () => (
           <NavLink className="button__link" to="/projects">
             See what I can do!
           </NavLink>
+        </button>
+        <button className="button_alt">
+          <Link
+            className="button_alt__link"
+            to="/CV.pdf"
+            target="_blank"
+            download
+          >
+            Get my CV!
+          </Link>
         </button>
       </div>
     </div>

@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const Home = () => (
   <div className="content_wrapper">
@@ -7,10 +7,10 @@ const Home = () => (
       <h1 className="home__greetings">Hi!</h1>
       <h1 className="home__greetings__name">I'm Giorgio!</h1>
       <h2 className="home__statement">
-        I build{" "}
+        I build{' '}
         <NavLink className="home__statement__navlink" to="/projects">
           web applications
-        </NavLink>{" "}
+        </NavLink>{' '}
         that people need.
       </h2>
       <p className="home__description">
@@ -37,15 +37,15 @@ const Home = () => (
             LinkedIn
           </a>
         </button>
-        <button>
-          <a
-            className="button__link"
-            href="mailto:giorgio.torre8@gmail.com"
+        <button className="button_alt">
+          <Link
+            className="button_alt__link"
+            to="/CV.pdf"
             target="_blank"
-            rel="noopener noreferrer"
+            download
           >
-            Contact Me
-          </a>
+            Get my CV!
+          </Link>
         </button>
         <button>
           <NavLink className="button__link" to="/projects">

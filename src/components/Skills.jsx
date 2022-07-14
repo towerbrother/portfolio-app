@@ -8,12 +8,6 @@ const Skills = () => {
     description:
       'Part of the Core Team of stellenanzeige.de providing features according to agile methods.',
   };
-  const symposium = {
-    title: 'Symposium OÜ',
-    date: 'Feb-2020 - Oct-2020',
-    description:
-      'Autonomous team of devs using React / React Router / Github / Agile.',
-  };
   const online = {
     title: 'Online tutorials',
     date: 'Sept-2018 - Ongoing',

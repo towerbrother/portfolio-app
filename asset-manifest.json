@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.1783fe00.css",
-    "main.js": "/portfolio-app/static/js/main.f2cc6ebb.js",
+    "main.css": "/portfolio-app/static/css/main.dff1126e.css",
+    "main.js": "/portfolio-app/static/js/main.8e941e4b.js",
     "static/media/music-app.PNG": "/portfolio-app/static/media/music-app.9d9c83df7aa5d5edbb62.PNG",
     "static/media/calculator.PNG": "/portfolio-app/static/media/calculator.48aa2f813aed69da2221.PNG",
     "static/media/clock.PNG": "/portfolio-app/static/media/clock.39f87d5f395ba7158a9f.PNG",
-    "static/media/weather-app.PNG": "/portfolio-app/static/media/weather-app.6815a8a65f3dd64e1b5f.PNG",
+    "static/media/weather-app.PNG": "/portfolio-app/static/media/weather-app.296523b03747e26d7cb3.PNG",
     "static/media/drumkit.PNG": "/portfolio-app/static/media/drumkit.c33359193bc27a5691bf.PNG",
     "static/media/expenses-app.PNG": "/portfolio-app/static/media/expenses-app.97ae51a9bd522965ad29.PNG",
     "static/media/indecision-app.PNG": "/portfolio-app/static/media/indecision-app.4366f8d42c729dc5b53c.PNG",
     "index.html": "/portfolio-app/index.html",
-    "main.1783fe00.css.map": "/portfolio-app/static/css/main.1783fe00.css.map",
-    "main.f2cc6ebb.js.map": "/portfolio-app/static/js/main.f2cc6ebb.js.map"
+    "main.dff1126e.css.map": "/portfolio-app/static/css/main.dff1126e.css.map",
+    "main.8e941e4b.js.map": "/portfolio-app/static/js/main.8e941e4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1783fe00.css",
-    "static/js/main.f2cc6ebb.js"
+    "static/css/main.dff1126e.css",
+    "static/js/main.8e941e4b.js"
   ]
 }
